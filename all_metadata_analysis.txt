@@ -1,0 +1,1007 @@
+================================================================================
+BATCH METADATA ANALYSIS: HIGH-FIELD vs LOW-FIELD
+================================================================================
+
+PATIENT: 0001
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 133.20                    | 129.11                   
+Intensity Std_Dev         | 152.76                    | 135.56                   
+Intensity Skewness        | 1.312                     | 1.237                    
+Approximate SNR           | 0.87                      | 0.95                     
+
+PATIENT: 0002
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 131.97                    | 128.45                   
+Intensity Std_Dev         | 162.63                    | 145.67                   
+Intensity Skewness        | 1.681                     | 1.673                    
+Approximate SNR           | 0.81                      | 0.88                     
+
+PATIENT: 0003
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 86.81                     | 84.69                    
+Intensity Std_Dev         | 98.55                     | 84.32                    
+Intensity Skewness        | 2.276                     | 2.016                    
+Approximate SNR           | 0.88                      | 1.00                     
+
+PATIENT: 0004
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 69.99                     | 68.15                    
+Intensity Std_Dev         | 90.78                     | 75.28                    
+Intensity Skewness        | 2.045                     | 1.476                    
+Approximate SNR           | 0.77                      | 0.91                     
+
+PATIENT: 0005
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 118.61                    | 115.63                   
+Intensity Std_Dev         | 139.19                    | 119.78                   
+Intensity Skewness        | 1.727                     | 1.551                    
+Approximate SNR           | 0.85                      | 0.97                     
+
+PATIENT: 0006
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 117.60                    | 115.54                   
+Intensity Std_Dev         | 141.43                    | 124.08                   
+Intensity Skewness        | 1.839                     | 1.726                    
+Approximate SNR           | 0.83                      | 0.93                     
+
+PATIENT: 0007
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 124.41                    | 120.40                   
+Intensity Std_Dev         | 126.40                    | 108.16                   
+Intensity Skewness        | 1.185                     | 0.974                    
+Approximate SNR           | 0.98                      | 1.11                     
+
+PATIENT: 0008
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 123.39                    | 118.45                   
+Intensity Std_Dev         | 171.43                    | 152.05                   
+Intensity Skewness        | 1.683                     | 1.552                    
+Approximate SNR           | 0.72                      | 0.78                     
+
+PATIENT: 0009
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (13, 384, 384)            | (39, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 132.56                    | 128.11                   
+Intensity Std_Dev         | 165.91                    | 147.38                   
+Intensity Skewness        | 1.446                     | 1.361                    
+Approximate SNR           | 0.80                      | 0.87                     
+
+PATIENT: 0010
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 157.27                    | 153.24                   
+Intensity Std_Dev         | 179.03                    | 160.78                   
+Intensity Skewness        | 1.249                     | 1.169                    
+Approximate SNR           | 0.88                      | 0.95                     
+
+PATIENT: 0011
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (320, 320, 15)            | (138, 138, 13)           
+Voxel Spacing (mm)        | (np.float32(0.688), np.float32(0.688), np.float32(4.4)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 193.81                    | 189.87                   
+Intensity Std_Dev         | 220.90                    | 206.23                   
+Intensity Skewness        | 1.019                     | 1.028                    
+Approximate SNR           | 0.88                      | 0.92                     
+
+PATIENT: 0012
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 104.35                    | 101.53                   
+Intensity Std_Dev         | 126.90                    | 108.18                   
+Intensity Skewness        | 1.798                     | 1.582                    
+Approximate SNR           | 0.82                      | 0.94                     
+
+PATIENT: 0013
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 120.38                    | 116.63                   
+Intensity Std_Dev         | 138.68                    | 120.25                   
+Intensity Skewness        | 1.558                     | 1.426                    
+Approximate SNR           | 0.87                      | 0.97                     
+
+PATIENT: 0014
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 135.58                    | 130.81                   
+Intensity Std_Dev         | 155.57                    | 136.72                   
+Intensity Skewness        | 1.360                     | 1.190                    
+Approximate SNR           | 0.87                      | 0.96                     
+
+PATIENT: 0015
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 142.11                    | 137.96                   
+Intensity Std_Dev         | 156.78                    | 138.09                   
+Intensity Skewness        | 1.261                     | 1.133                    
+Approximate SNR           | 0.91                      | 1.00                     
+
+PATIENT: 0016
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 122.18                    | 118.76                   
+Intensity Std_Dev         | 151.01                    | 129.55                   
+Intensity Skewness        | 1.644                     | 1.345                    
+Approximate SNR           | 0.81                      | 0.92                     
+
+PATIENT: 0017
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 105.89                    | 103.36                   
+Intensity Std_Dev         | 125.19                    | 108.03                   
+Intensity Skewness        | 1.798                     | 1.599                    
+Approximate SNR           | 0.85                      | 0.96                     
+
+PATIENT: 0019
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 123.29                    | 120.80                   
+Intensity Std_Dev         | 159.27                    | 142.11                   
+Intensity Skewness        | 1.818                     | 1.733                    
+Approximate SNR           | 0.77                      | 0.85                     
+
+PATIENT: 0020
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 140.76                    | 136.67                   
+Intensity Std_Dev         | 150.99                    | 132.44                   
+Intensity Skewness        | 1.183                     | 1.002                    
+Approximate SNR           | 0.93                      | 1.03                     
+
+PATIENT: 0021
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 116.87                    | 114.30                   
+Intensity Std_Dev         | 135.83                    | 119.20                   
+Intensity Skewness        | 1.671                     | 1.417                    
+Approximate SNR           | 0.86                      | 0.96                     
+
+PATIENT: 0022
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 193.72                    | 188.99                   
+Intensity Std_Dev         | 209.36                    | 195.48                   
+Intensity Skewness        | 1.116                     | 1.180                    
+Approximate SNR           | 0.93                      | 0.97                     
+
+PATIENT: 0023
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (320, 320, 19)            | (138, 138, 17)           
+Voxel Spacing (mm)        | (np.float32(0.688), np.float32(0.688), np.float32(4.4)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 208.50                    | 203.58                   
+Intensity Std_Dev         | 254.79                    | 243.31                   
+Intensity Skewness        | 1.044                     | 1.101                    
+Approximate SNR           | 0.82                      | 0.84                     
+
+PATIENT: 0024
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 100.15                    | 97.44                    
+Intensity Std_Dev         | 117.88                    | 102.18                   
+Intensity Skewness        | 1.807                     | 1.697                    
+Approximate SNR           | 0.85                      | 0.95                     
+
+PATIENT: 0025
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 89.04                     | 85.89                    
+Intensity Std_Dev         | 115.70                    | 98.62                    
+Intensity Skewness        | 1.894                     | 1.588                    
+Approximate SNR           | 0.77                      | 0.87                     
+
+PATIENT: 0026
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 111.45                    | 109.07                   
+Intensity Std_Dev         | 147.26                    | 127.49                   
+Intensity Skewness        | 1.763                     | 1.510                    
+Approximate SNR           | 0.76                      | 0.86                     
+
+PATIENT: 0027
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 215.92                    | 209.59                   
+Intensity Std_Dev         | 228.99                    | 210.07                   
+Intensity Skewness        | 1.186                     | 1.182                    
+Approximate SNR           | 0.94                      | 1.00                     
+
+PATIENT: 0029
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 154.41                    | 150.63                   
+Intensity Std_Dev         | 169.93                    | 155.16                   
+Intensity Skewness        | 1.107                     | 1.086                    
+Approximate SNR           | 0.91                      | 0.97                     
+
+PATIENT: 0030
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 94.58                     | 92.62                    
+Intensity Std_Dev         | 127.76                    | 112.80                   
+Intensity Skewness        | 1.886                     | 1.746                    
+Approximate SNR           | 0.74                      | 0.82                     
+
+PATIENT: 0031
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (320, 320, 20)            | (138, 138, 18)           
+Voxel Spacing (mm)        | (np.float32(0.688), np.float32(0.688), np.float32(4.4)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 208.27                    | 205.56                   
+Intensity Std_Dev         | 251.12                    | 240.74                   
+Intensity Skewness        | 1.059                     | 1.090                    
+Approximate SNR           | 0.83                      | 0.85                     
+
+PATIENT: 0032
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 111.45                    | 108.84                   
+Intensity Std_Dev         | 136.38                    | 121.18                   
+Intensity Skewness        | 1.673                     | 1.566                    
+Approximate SNR           | 0.82                      | 0.90                     
+
+PATIENT: 0033
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 130.63                    | 127.34                   
+Intensity Std_Dev         | 147.39                    | 130.99                   
+Intensity Skewness        | 1.492                     | 1.443                    
+Approximate SNR           | 0.89                      | 0.97                     
+
+PATIENT: 0034
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 105.04                    | 102.63                   
+Intensity Std_Dev         | 132.58                    | 114.06                   
+Intensity Skewness        | 1.813                     | 1.515                    
+Approximate SNR           | 0.79                      | 0.90                     
+
+PATIENT: 0035
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (320, 320, 15)            | (138, 138, 13)           
+Voxel Spacing (mm)        | (np.float32(0.688), np.float32(0.688), np.float32(4.4)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 169.23                    | 167.37                   
+Intensity Std_Dev         | 200.60                    | 186.56                   
+Intensity Skewness        | 1.154                     | 1.182                    
+Approximate SNR           | 0.84                      | 0.90                     
+
+PATIENT: 0036
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (320, 320, 9)             | (138, 138, 8)            
+Voxel Spacing (mm)        | (np.float32(0.688), np.float32(0.688), np.float32(4.4)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 165.96                    | 163.77                   
+Intensity Std_Dev         | 202.45                    | 186.95                   
+Intensity Skewness        | 1.201                     | 1.224                    
+Approximate SNR           | 0.82                      | 0.88                     
+
+PATIENT: 0037
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 91.55                     | 89.25                    
+Intensity Std_Dev         | 122.90                    | 105.76                   
+Intensity Skewness        | 2.022                     | 1.848                    
+Approximate SNR           | 0.74                      | 0.84                     
+
+PATIENT: 0038
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 166.00                    | 162.07                   
+Intensity Std_Dev         | 181.15                    | 167.48                   
+Intensity Skewness        | 1.270                     | 1.322                    
+Approximate SNR           | 0.92                      | 0.97                     
+
+PATIENT: 0039
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 149.89                    | 146.13                   
+Intensity Std_Dev         | 157.83                    | 139.63                   
+Intensity Skewness        | 1.264                     | 1.190                    
+Approximate SNR           | 0.95                      | 1.05                     
+
+PATIENT: 0040
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 100.33                    | 97.50                    
+Intensity Std_Dev         | 124.12                    | 105.96                   
+Intensity Skewness        | 1.785                     | 1.526                    
+Approximate SNR           | 0.81                      | 0.92                     
+
+PATIENT: 0041
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 128.66                    | 124.96                   
+Intensity Std_Dev         | 149.28                    | 130.22                   
+Intensity Skewness        | 1.631                     | 1.488                    
+Approximate SNR           | 0.86                      | 0.96                     
+
+PATIENT: 0042
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 101.90                    | 98.35                    
+Intensity Std_Dev         | 118.99                    | 101.05                   
+Intensity Skewness        | 1.596                     | 1.306                    
+Approximate SNR           | 0.86                      | 0.97                     
+
+PATIENT: 0043
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 83.07                     | 80.89                    
+Intensity Std_Dev         | 109.99                    | 93.63                    
+Intensity Skewness        | 2.443                     | 2.155                    
+Approximate SNR           | 0.76                      | 0.86                     
+
+PATIENT: 0044
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (320, 320, 17)            | (138, 138, 15)           
+Voxel Spacing (mm)        | (np.float32(0.688), np.float32(0.688), np.float32(4.4)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 146.40                    | 145.03                   
+Intensity Std_Dev         | 197.73                    | 183.10                   
+Intensity Skewness        | 1.499                     | 1.491                    
+Approximate SNR           | 0.74                      | 0.79                     
+
+PATIENT: 0046
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 93.84                     | 90.63                    
+Intensity Std_Dev         | 119.26                    | 101.71                   
+Intensity Skewness        | 1.665                     | 1.323                    
+Approximate SNR           | 0.79                      | 0.89                     
+
+PATIENT: 0047
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 128.49                    | 124.45                   
+Intensity Std_Dev         | 142.49                    | 121.86                   
+Intensity Skewness        | 1.339                     | 1.039                    
+Approximate SNR           | 0.90                      | 1.02                     
+
+PATIENT: 0048
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (320, 320, 25)            | (100, 100, 20)           
+Voxel Spacing (mm)        | (np.float32(0.5), np.float32(0.5), np.float32(3.9)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 55.42                     | 53.41                    
+Intensity Std_Dev         | 98.45                     | 74.38                    
+Intensity Skewness        | 5.189                     | 4.840                    
+Approximate SNR           | 0.56                      | 0.72                     
+
+PATIENT: 0050
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 144.97                    | 140.82                   
+Intensity Std_Dev         | 166.08                    | 149.16                   
+Intensity Skewness        | 1.404                     | 1.345                    
+Approximate SNR           | 0.87                      | 0.94                     
+
+PATIENT: 0051
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 112.95                    | 110.26                   
+Intensity Std_Dev         | 140.66                    | 118.97                   
+Intensity Skewness        | 1.813                     | 1.447                    
+Approximate SNR           | 0.80                      | 0.93                     
+
+PATIENT: 0052
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 94.38                     | 90.85                    
+Intensity Std_Dev         | 123.02                    | 104.01                   
+Intensity Skewness        | 1.903                     | 1.539                    
+Approximate SNR           | 0.77                      | 0.87                     
+
+PATIENT: 0053
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (320, 320, 16)            | (138, 138, 14)           
+Voxel Spacing (mm)        | (np.float32(0.688), np.float32(0.688), np.float32(4.4)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 165.58                    | 163.43                   
+Intensity Std_Dev         | 221.21                    | 206.87                   
+Intensity Skewness        | 1.280                     | 1.272                    
+Approximate SNR           | 0.75                      | 0.79                     
+
+PATIENT: 0055
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 121.49                    | 116.79                   
+Intensity Std_Dev         | 153.63                    | 136.73                   
+Intensity Skewness        | 1.558                     | 1.502                    
+Approximate SNR           | 0.79                      | 0.85                     
+
+PATIENT: 0056
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (384, 384, 15)            | (138, 138, 13)           
+Voxel Spacing (mm)        | (np.float32(0.573), np.float32(0.573), np.float32(4.4)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 184.68                    | 182.74                   
+Intensity Std_Dev         | 250.06                    | 232.20                   
+Intensity Skewness        | 1.503                     | 1.514                    
+Approximate SNR           | 0.74                      | 0.79                     
+
+PATIENT: 0057
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 138.05                    | 133.62                   
+Intensity Std_Dev         | 161.14                    | 144.11                   
+Intensity Skewness        | 1.421                     | 1.372                    
+Approximate SNR           | 0.86                      | 0.93                     
+
+PATIENT: 0058
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 113.69                    | 110.07                   
+Intensity Std_Dev         | 136.53                    | 116.38                   
+Intensity Skewness        | 1.664                     | 1.329                    
+Approximate SNR           | 0.83                      | 0.95                     
+
+PATIENT: 0060
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 118.03                    | 113.58                   
+Intensity Std_Dev         | 147.22                    | 130.27                   
+Intensity Skewness        | 1.567                     | 1.470                    
+Approximate SNR           | 0.80                      | 0.87                     
+
+PATIENT: 0061
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 167.15                    | 162.34                   
+Intensity Std_Dev         | 191.49                    | 173.85                   
+Intensity Skewness        | 1.326                     | 1.389                    
+Approximate SNR           | 0.87                      | 0.93                     
+
+PATIENT: 0062
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 165.48                    | 161.76                   
+Intensity Std_Dev         | 174.54                    | 158.88                   
+Intensity Skewness        | 1.280                     | 1.296                    
+Approximate SNR           | 0.95                      | 1.02                     
+
+PATIENT: 0063
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 137.11                    | 132.86                   
+Intensity Std_Dev         | 154.87                    | 135.12                   
+Intensity Skewness        | 1.622                     | 1.559                    
+Approximate SNR           | 0.89                      | 0.98                     
+
+PATIENT: 0064
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 149.56                    | 145.88                   
+Intensity Std_Dev         | 178.17                    | 163.01                   
+Intensity Skewness        | 1.306                     | 1.315                    
+Approximate SNR           | 0.84                      | 0.89                     
+
+PATIENT: 0065
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 109.43                    | 106.17                   
+Intensity Std_Dev         | 125.72                    | 107.98                   
+Intensity Skewness        | 1.767                     | 1.521                    
+Approximate SNR           | 0.87                      | 0.98                     
+
+PATIENT: 0067
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 143.90                    | 140.93                   
+Intensity Std_Dev         | 165.89                    | 150.61                   
+Intensity Skewness        | 1.422                     | 1.368                    
+Approximate SNR           | 0.87                      | 0.94                     
+
+PATIENT: 0068
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 117.16                    | 113.31                   
+Intensity Std_Dev         | 135.91                    | 117.40                   
+Intensity Skewness        | 1.575                     | 1.388                    
+Approximate SNR           | 0.86                      | 0.97                     
+
+PATIENT: 0069
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 152.38                    | 148.87                   
+Intensity Std_Dev         | 169.93                    | 155.24                   
+Intensity Skewness        | 1.445                     | 1.480                    
+Approximate SNR           | 0.90                      | 0.96                     
+
+PATIENT: 0070
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 79.12                     | 77.45                    
+Intensity Std_Dev         | 107.01                    | 91.01                    
+Intensity Skewness        | 2.050                     | 1.610                    
+Approximate SNR           | 0.74                      | 0.85                     
+
+PATIENT: 0071
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (320, 320, 25)            | (100, 100, 18)           
+Voxel Spacing (mm)        | (np.float32(0.5), np.float32(0.5), np.float32(3.6)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 41.69                     | 40.71                    
+Intensity Std_Dev         | 51.30                     | 30.09                    
+Intensity Skewness        | 5.744                     | 2.490                    
+Approximate SNR           | 0.81                      | 1.35                     
+
+PATIENT: 0072
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 145.71                    | 142.31                   
+Intensity Std_Dev         | 167.04                    | 147.59                   
+Intensity Skewness        | 1.397                     | 1.258                    
+Approximate SNR           | 0.87                      | 0.96                     
+
+PATIENT: 0073
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 129.59                    | 126.36                   
+Intensity Std_Dev         | 155.61                    | 136.88                   
+Intensity Skewness        | 1.584                     | 1.442                    
+Approximate SNR           | 0.83                      | 0.92                     
+
+PATIENT: 0074
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 156.84                    | 152.46                   
+Intensity Std_Dev         | 183.68                    | 169.73                   
+Intensity Skewness        | 1.372                     | 1.449                    
+Approximate SNR           | 0.85                      | 0.90                     
+
+PATIENT: 0075
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (31, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(3.3), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 65.15                     | 61.25                    
+Intensity Std_Dev         | 103.71                    | 85.47                    
+Intensity Skewness        | 2.229                     | 1.752                    
+Approximate SNR           | 0.63                      | 0.72                     
+
+PATIENT: 0077
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 169.63                    | 164.79                   
+Intensity Std_Dev         | 186.14                    | 173.17                   
+Intensity Skewness        | 1.269                     | 1.334                    
+Approximate SNR           | 0.91                      | 0.95                     
+
+PATIENT: 0078
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 139.55                    | 135.73                   
+Intensity Std_Dev         | 168.89                    | 153.07                   
+Intensity Skewness        | 1.483                     | 1.452                    
+Approximate SNR           | 0.83                      | 0.89                     
+
+PATIENT: 0080
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 155.74                    | 151.90                   
+Intensity Std_Dev         | 170.20                    | 154.55                   
+Intensity Skewness        | 1.199                     | 1.174                    
+Approximate SNR           | 0.92                      | 0.98                     
+
+PATIENT: 0081
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 98.51                     | 96.23                    
+Intensity Std_Dev         | 121.31                    | 103.60                   
+Intensity Skewness        | 1.705                     | 1.339                    
+Approximate SNR           | 0.81                      | 0.93                     
+
+PATIENT: 0082
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 109.55                    | 106.59                   
+Intensity Std_Dev         | 147.21                    | 128.94                   
+Intensity Skewness        | 1.784                     | 1.580                    
+Approximate SNR           | 0.74                      | 0.83                     
+
+PATIENT: 0083
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 124.37                    | 121.06                   
+Intensity Std_Dev         | 151.45                    | 134.41                   
+Intensity Skewness        | 1.553                     | 1.435                    
+Approximate SNR           | 0.82                      | 0.90                     
+
+PATIENT: 0084
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 97.79                     | 94.47                    
+Intensity Std_Dev         | 130.12                    | 111.74                   
+Intensity Skewness        | 1.887                     | 1.651                    
+Approximate SNR           | 0.75                      | 0.85                     
+
+PATIENT: 0085
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 83.24                     | 80.57                    
+Intensity Std_Dev         | 106.87                    | 92.81                    
+Intensity Skewness        | 1.903                     | 1.605                    
+Approximate SNR           | 0.78                      | 0.87                     
+
+PATIENT: 0086
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 113.75                    | 110.98                   
+Intensity Std_Dev         | 141.21                    | 122.35                   
+Intensity Skewness        | 1.791                     | 1.522                    
+Approximate SNR           | 0.81                      | 0.91                     
+
+PATIENT: 0087
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 84.12                     | 80.81                    
+Intensity Std_Dev         | 109.48                    | 92.40                    
+Intensity Skewness        | 1.697                     | 1.250                    
+Approximate SNR           | 0.77                      | 0.87                     
+
+PATIENT: 0088
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 75.57                     | 72.75                    
+Intensity Std_Dev         | 101.78                    | 87.11                    
+Intensity Skewness        | 2.001                     | 1.613                    
+Approximate SNR           | 0.74                      | 0.84                     
+
+PATIENT: 0089
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (320, 320, 12)            | (138, 138, 11)           
+Voxel Spacing (mm)        | (np.float32(0.688), np.float32(0.688), np.float32(4.4)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 111.13                    | 109.75                   
+Intensity Std_Dev         | 173.22                    | 157.84                   
+Intensity Skewness        | 2.114                     | 2.076                    
+Approximate SNR           | 0.64                      | 0.70                     
+
+PATIENT: 0090
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 158.93                    | 153.85                   
+Intensity Std_Dev         | 170.07                    | 150.48                   
+Intensity Skewness        | 1.148                     | 1.007                    
+Approximate SNR           | 0.93                      | 1.02                     
+
+PATIENT: 0091
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 169.36                    | 164.54                   
+Intensity Std_Dev         | 178.72                    | 161.37                   
+Intensity Skewness        | 1.003                     | 0.934                    
+Approximate SNR           | 0.95                      | 1.02                     
+
+PATIENT: 0092
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 149.53                    | 145.48                   
+Intensity Std_Dev         | 185.59                    | 166.73                   
+Intensity Skewness        | 1.398                     | 1.338                    
+Approximate SNR           | 0.81                      | 0.87                     
+
+PATIENT: 0093
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 242.50                    | 236.20                   
+Intensity Std_Dev         | 220.85                    | 205.65                   
+Intensity Skewness        | 0.781                     | 0.847                    
+Approximate SNR           | 1.10                      | 1.15                     
+
+PATIENT: 0094
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 69.61                     | 67.48                    
+Intensity Std_Dev         | 91.54                     | 76.39                    
+Intensity Skewness        | 2.152                     | 1.632                    
+Approximate SNR           | 0.76                      | 0.88                     
+
+PATIENT: 0095
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 93.71                     | 90.82                    
+Intensity Std_Dev         | 134.38                    | 112.46                   
+Intensity Skewness        | 2.200                     | 1.821                    
+Approximate SNR           | 0.70                      | 0.81                     
+
+PATIENT: 0096
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 136.24                    | 132.89                   
+Intensity Std_Dev         | 150.36                    | 133.10                   
+Intensity Skewness        | 1.491                     | 1.413                    
+Approximate SNR           | 0.91                      | 1.00                     
+
+PATIENT: 0097
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 141.91                    | 138.01                   
+Intensity Std_Dev         | 152.79                    | 137.20                   
+Intensity Skewness        | 1.332                     | 1.349                    
+Approximate SNR           | 0.93                      | 1.01                     
+
+PATIENT: 0098
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 121.41                    | 117.64                   
+Intensity Std_Dev         | 150.03                    | 133.57                   
+Intensity Skewness        | 1.538                     | 1.451                    
+Approximate SNR           | 0.81                      | 0.88                     
+
+PATIENT: 0099
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 384, 384)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.729), np.float32(0.729)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 124.35                    | 121.07                   
+Intensity Std_Dev         | 132.71                    | 114.61                   
+Intensity Skewness        | 1.472                     | 1.323                    
+Approximate SNR           | 0.94                      | 1.06                     
+
+PATIENT: 0100
+--------------------------------------------------------------------------------
+Parameter                 | High-Field (HF)           | Low-Field (LF)           
+--------------------------------------------------------------------------------
+Dimensions (Voxels)       | (15, 320, 320)            | (45, 175, 56)            
+Voxel Spacing (mm)        | (np.float32(4.8), np.float32(0.875), np.float32(0.875)) | (np.float32(1.6), np.float32(1.6), np.float32(5.0))
+Intensity Mean            | 164.11                    | 159.41                   
+Intensity Std_Dev         | 179.91                    | 157.44                   
+Intensity Skewness        | 1.471                     | 1.113                    
+Approximate SNR           | 0.91                      | 1.01                     
+
+PATIENT: 0101
+--------------------------------------------------------------------------------
