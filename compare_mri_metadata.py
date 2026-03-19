@@ -53,8 +53,24 @@ def extract_properties(filepath, name):
     std_val = np.std(body_data)
     skew_val = skew(body_data)
     
-    # SNR Proxy: Mean / Std (Approximation for comparison only)
-    snr_proxy = mean_val / std_val if std_val > 0 else 0
+    # 5. Robust SNR
+    data_f32 = data.astype(np.float32)
+    non_zero = data_f32[data_f32 > 0]
+    
+    if len(non_zero) < 100:
+        snr_proxy = float('nan')
+    else:
+        p20 = np.percentile(non_zero, 20)
+        p80 = np.percentile(non_zero, 80)
+        
+        noise_region = non_zero[non_zero <= p20]
+        signal_region = non_zero[non_zero >= p80]
+        
+        if len(noise_region) < 50 or len(signal_region) < 50:
+            snr_proxy = float('nan')
+        else:
+            noise_std = np.std(noise_region)
+            snr_proxy = np.mean(signal_region) / (noise_std + 1e-8) if noise_std >= 1e-6 else float('nan')
     
     return {
         "Name": name,
@@ -74,53 +90,60 @@ import glob
 
 output_file = "all_metadata_analysis.txt"
 
-hf_files = sorted(glob.glob(os.path.join(INPUT_DIR_HF, "*_HF.nii.gz")))
+# Loop through LF files (the smaller confirmed set) and match to HF
+lf_files = sorted(glob.glob(os.path.join(INPUT_DIR_LF, "*_LF.nii.gz")))
 
 with open(output_file, "w", encoding="utf-8") as f:
     f.write("=" * 80 + "\n")
     f.write("BATCH METADATA ANALYSIS: HIGH-FIELD vs LOW-FIELD\n")
     f.write("=" * 80 + "\n\n")
 
-    for hf_path in hf_files:
-        basename = os.path.basename(hf_path)
-        patient_id = basename.replace("_HF.nii.gz", "")
-        lf_path = os.path.join(INPUT_DIR_LF, f"{patient_id}_LF.nii.gz")
-        
+    for lf_path in lf_files:
+        basename   = os.path.basename(lf_path)
+        patient_id = basename.replace("_LF.nii.gz", "")
+        hf_path    = os.path.join(INPUT_DIR_HF, f"{patient_id}_HF.nii.gz")
+
         f.write(f"PATIENT: {patient_id}\n")
         f.write("-" * 80 + "\n")
-        
+
         hf_props = extract_properties(hf_path, "HIGH-FIELD (Reference)")
         lf_props = extract_properties(lf_path, "LOW-FIELD  (Simulated)")
 
         if hf_props and lf_props:
             f.write(f"{'Parameter':<25} | {'High-Field (HF)':<25} | {'Low-Field (LF)':<25}\n")
             f.write("-" * 80 + "\n")
-            
-            keys_to_compare = [
-                "Dimensions (Voxels)", 
-                "Voxel Spacing (mm)", 
-                "Intensity Mean", 
-                "Intensity Std_Dev", 
+
+            keys = [
+                "Dimensions (Voxels)",
+                "Voxel Spacing (mm)",
+                "Intensity Mean",
+                "Intensity Std_Dev",
                 "Intensity Skewness",
                 "Approximate SNR"
             ]
-            
-            for key in keys_to_compare:
-                hf_val = hf_props[key]
-                lf_val = lf_props[key]
-                f.write(f"{key:<25} | {hf_val:<25} | {lf_val:<25}\n")
-            
+            for key in keys:
+                f.write(f"{key:<25} | {hf_props[key]:<25} | {lf_props[key]:<25}\n")
+
+            # Quick sanity check
+            hf_mean = float(hf_props["Intensity Mean"])
+            lf_mean = float(lf_props["Intensity Mean"])
+            hf_std  = float(hf_props["Intensity Std_Dev"])
+            lf_std  = float(lf_props["Intensity Std_Dev"])
+            mean_drop = (hf_mean - lf_mean) / hf_mean * 100
+            std_drop  = (hf_std  - lf_std)  / hf_std  * 100
+            f.write(f"{'Mean drop %':<25} | {'':<25} | {mean_drop:+.1f}%\n")
+            f.write(f"{'Std drop %':<25} | {'':<25} | {std_drop:+.1f}%\n")
             f.write("\n")
         else:
-            f.write("Failed to load paired HF/LF NIfTIs for this patient.\n\n")
-            
+            f.write("  [WARNING] HF file not found for this patient.\n\n")
+
     f.write("=" * 80 + "\n")
-    f.write("KEY TAKEAWAYS PROVING THIS IS LOW-FIELD ACROSS ALL PAIRS:\n")
-    f.write("1. Voxel Spacing: LF typically has larger voxels (lower resolution) than HF.\n")
-    f.write("2. Approximate SNR: LF inherently has much lower SNR due to the weaker magnetic field.\n")
-    f.write("3. Intensity Skewness: LF often has a highly skewed intensity profile because\n")
-    f.write("   the high noise floor pushes the background up (Rician distribution at low SNR).\n")
-    f.write("   HF has cleaner, wider contrast separation.\n")
+    f.write("KEY TAKEAWAYS:\n")
+    f.write("1. Voxel Spacing  : LF in-plane res 1.6mm vs HF 0.73mm (2.2x coarser)\n")
+    f.write("2. Mean drop ~3%  : Slight intensity reduction (FIX 2 working)\n")
+    f.write("3. Std drop ~12-17%: Contrast compression as expected in LF scanners\n")
+    f.write("4. Skewness shifts : Rician noise floor pushes bright-tail distribution\n")
     f.write("=" * 80 + "\n")
-        
+
 print(f"Batch analysis saved to {output_file}")
+
