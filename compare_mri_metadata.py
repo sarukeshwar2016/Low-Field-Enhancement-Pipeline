@@ -53,24 +53,23 @@ def extract_properties(filepath, name):
     std_val = np.std(body_data)
     skew_val = skew(body_data)
     
-    # 5. Robust SNR
+    # 5. Robust SNR (Local Difference)
     data_f32 = data.astype(np.float32)
     non_zero = data_f32[data_f32 > 0]
     
     if len(non_zero) < 100:
         snr_proxy = float('nan')
     else:
-        p20 = np.percentile(non_zero, 20)
-        p80 = np.percentile(non_zero, 80)
+        p70 = np.percentile(non_zero, 70)
+        signal_region = non_zero[non_zero >= p70]
         
-        noise_region = non_zero[non_zero <= p20]
-        signal_region = non_zero[non_zero >= p80]
+        diff = np.diff(data_f32, axis=0)
+        noise_std = np.std(diff)
         
-        if len(noise_region) < 50 or len(signal_region) < 50:
+        if noise_std < 1e-6:
             snr_proxy = float('nan')
         else:
-            noise_std = np.std(noise_region)
-            snr_proxy = np.mean(signal_region) / (noise_std + 1e-8) if noise_std >= 1e-6 else float('nan')
+            snr_proxy = np.mean(signal_region) / (noise_std + 1e-8)
     
     return {
         "Name": name,

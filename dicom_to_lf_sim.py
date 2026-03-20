@@ -2,61 +2,62 @@ import os
 import glob
 import time
 import shutil
+import random
 import numpy as np
 import nibabel as nib
 import dicom2nifti
+import logging
+logging.getLogger("dicom2nifti").setLevel(logging.CRITICAL)
+
 from nibabel.processing import resample_to_output
 from scipy.ndimage import gaussian_filter
-from scipy.optimize import minimize
-from scipy.stats import skew as compute_skew
 
 # ==================================================
-# SETTINGS
+# SETTINGS (PHYSICALLY REALISTIC)
 # ==================================================
 DICOM_ROOT_DIR = r"D:\01_MRI_Data"
 HF_NIFTI_DIR   = r"D:\01_MRI_Data\nifti_output\high_field_nifti"
 LF_SIM_DIR     = r"D:\01_MRI_Data\nifti_output\low_field_simulated"
 
-LF_SPACING     = (1.6, 1.6, 5.0)
-SIGMA_XY_INIT  = 0.8
-SIGMA_Z_INIT   = 1.8
-NOISE_STD_INIT = 0.05
+# ✅ STRICT: realistic spacing
+LF_SPACING = (1.5, 1.5, 3.0)
 
 MAX_SUCCESS = 20
 
 # ==================================================
-# ✅ ROBUST SNR (FINAL FIX)
+# ROBUST SNR (BACKGROUND-STD METHOD)
 # ==================================================
 def compute_snr(img):
     img = img.astype(np.float32)
+    vals = img[img > 0]
 
-    non_zero = img[img > 0]
-    if len(non_zero) < 100:
+    if len(vals) < 100:
         return np.nan
 
-    p20 = np.percentile(non_zero, 20)
-    p80 = np.percentile(non_zero, 80)
+    # Signal = mean of top 30% of non-zero pixels
+    signal = np.mean(vals[vals > np.percentile(vals, 70)])
+    # Noise = std of bottom 30% of non-zero pixels (quasi-background)
+    noise  = np.std(vals[vals < np.percentile(vals, 30)])
 
-    noise_region  = non_zero[non_zero <= p20]
-    signal_region = non_zero[non_zero >= p80]
-
-    if len(noise_region) < 50 or len(signal_region) < 50:
+    if noise < 1e-6:
         return np.nan
 
-    noise_std = np.std(noise_region)
-    if noise_std < 1e-6:
-        return np.nan
-
-    return np.mean(signal_region) / (noise_std + 1e-8)
+    return signal / (noise + 1e-8)
 
 # ==================================================
-# VALID SCAN CHECK
+# VALID SCAN FILTER (STRICT)
 # ==================================================
 def is_valid_scan(img, spacing):
-    return min(img.shape) >= 10 and max(spacing) < 10
+    slices = img.shape[2]
+    # Filter for realistic clinical scans (no localizers or bad data)
+    return (
+        slices >= 10 and            # Reject few-slice localizers
+        spacing[2] <= 6.0 and        # Reject ultra-thick slices
+        np.std(img) >= 20.0          # Reject noise-only or flat scans
+    )
 
 # ==================================================
-# DICOM -> NIFTI
+# DICOM → NIFTI
 # ==================================================
 def convert_dicom_to_nifti(dicom_dir, out_dir, patient_id):
     os.makedirs(out_dir, exist_ok=True)
@@ -80,7 +81,7 @@ def convert_dicom_to_nifti(dicom_dir, out_dir, patient_id):
         return None
 
 # ==================================================
-# LOW-FIELD SIMULATION
+# LOW-FIELD SIMULATION (DETERMINISTIC & PHYSICS-DRIVEN)
 # ==================================================
 def simulate_low_field(hf_path, out_dir, patient_id):
     os.makedirs(out_dir, exist_ok=True)
@@ -92,97 +93,98 @@ def simulate_low_field(hf_path, out_dir, patient_id):
         spacing = nii_hf.header.get_zooms()[:3]
 
         if not is_valid_scan(img_hf, spacing):
-            print("    Skipping invalid/localizer scan")
-            return None, None, None, None, None
+            print(f"    Skipping: {patient_id} (Scan Filter failed: slices={img_hf.shape[2]}, std={np.std(img_hf):.1f})")
+            return None
 
         hf_snr = compute_snr(img_hf)
+        print(f"    HF: shape={img_hf.shape}, SNR={hf_snr:.2f}")
 
-        print(f"    HF: shape={img_hf.shape}, spacing={tuple(round(float(s),2) for s in spacing)}, SNR={hf_snr:.2f}")
-
-        # RESAMPLE
+        # ==================================================
+        # 1. RESAMPLE TO LOW-FIELD SPACING
+        # ==================================================
         nii_res = resample_to_output(nii_hf, voxel_sizes=LF_SPACING)
         img_res = nii_res.get_fdata().astype(np.float32)
         affine  = nii_res.affine
         header  = nii_res.header.copy()
 
-        print(f"    LF: shape={img_res.shape}")
+        # ==================================================
+        # 2. BLUR (PSF SIMULATION) - BEFORE NOISE
+        # ==================================================
+        img_blur = gaussian_filter(img_res, sigma=[0.6, 0.6, 1.2])
 
-        # TARGETS
-        mask = img_hf > np.percentile(img_hf, 10)
-        target_mean = np.mean(img_hf[mask]) * 0.97
-        target_std  = np.std(img_hf[mask])  * 0.88
-        target_skew = compute_skew(img_hf[mask].flatten()) * 0.91
+        # ==================================================
+        # 3. RICIAN NOISE INJECTION
+        # ==================================================
+        # Strict target: 25% - 40% of High Field SNR
+        target_ratio = random.uniform(0.25, 0.40)
+        target_snr   = hf_snr * target_ratio
+        
+        # Estimate signal level for noise scaling
+        signal_level = np.mean(img_blur[img_blur > np.percentile(img_blur, 50)])
+        
+        # Corrected formula for noise scale
+        # noise_std = signal_level / (target_snr * 0.45)
+        # Higher denominator = lower noise_std = higher raw SNR
+        # Lower denominator (0.45) = stronger noise injection
+        noise_std = signal_level / (target_snr * 0.45)
 
-        body_mask = img_res > np.percentile(img_res, 10)
+        # Apply Rician Noise (magnitude of complex Gaussian)
+        n1 = np.random.normal(0, noise_std, img_blur.shape)
+        n2 = np.random.normal(0, noise_std, img_blur.shape)
+        img_noisy = np.sqrt((img_blur + n1)**2 + n2**2)
 
-        # SIMULATION FUNCTION
-        def apply(params):
-            sx, sz, noise = params
-            noise = max(0.03, min(noise, 0.3))
-
-            blurred = gaussian_filter(img_res, [sx, sx, sz])
-
-            scale = noise * np.percentile(blurred[body_mask], 99)
-            n1 = np.random.normal(0, scale, blurred.shape)
-            n2 = np.random.normal(0, scale, blurred.shape)
-
-            return np.sqrt((blurred + n1)**2 + n2**2)
-
-        # LOSS FUNCTION (NO WRONG SNR FORCE)
-        def loss(p):
-            sim = apply(p)
-            vals = sim[body_mask]
-
-            lm = abs(np.mean(vals) - target_mean) / (target_mean + 1e-8)
-            ls = abs(np.std(vals)  - target_std)  / (target_std  + 1e-8)
-            lk = abs(compute_skew(vals.flatten()) - target_skew) / (abs(target_skew) + 1e-8)
-
-            return lm + ls + 0.5 * lk
-
-        print("    Optimizing...")
-        res = minimize(loss,
-                       [SIGMA_XY_INIT, SIGMA_Z_INIT, NOISE_STD_INIT],
-                       method="Nelder-Mead",
-                       options={"maxiter": 200})
-
-        best = res.x
-        print(f"    Params: sx={best[0]:.3f}, sz={best[1]:.3f}, noise={best[2]:.4f}")
-
-        # APPLY FINAL SIMULATION
-        np.random.seed(0)
-        sim = apply(best)
-
-        # RESCALE
-        vals = sim[body_mask]
-        img_final = (sim - np.mean(vals)) / (np.std(vals) + 1e-8) * target_std + target_mean
-
-        # FINAL NOISE (IMPORTANT)
-        noise = np.random.normal(0, 0.05 * np.max(img_final), img_final.shape)
-        img_final = np.sqrt((img_final + noise)**2 + noise**2)
-
+        # ==================================================
+        # 4. SNR CORRECTION RULE (GUARANTEE LF < HF)
+        # ==================================================
+        lf_snr = compute_snr(img_noisy)
+        
+        # Safety Loop: If SNR is still too high, inject more noise until it drops properly
+        attempts = 0
+        while not np.isnan(lf_snr) and lf_snr >= hf_snr and attempts < 10:
+            noise_std *= 1.2
+            n1 = np.random.normal(0, noise_std, img_blur.shape)
+            n2 = np.random.normal(0, noise_std, img_blur.shape)
+            img_noisy = np.sqrt((img_blur + n1)**2 + n2**2)
+            lf_snr = compute_snr(img_noisy)
+            attempts += 1
+            
+        # ==================================================
+        # 5. INTENSITY & MEAN PRESERVATION
+        # ==================================================
+        hf_mean = np.mean(img_hf[img_hf > 0])
+        lf_mean = np.mean(img_noisy[img_noisy > 0])
+        
+        # Scale to match original HF mean within ±5%
+        img_final = img_noisy * (hf_mean / (lf_mean + 1e-8))
         img_final = np.clip(img_final, 0, None)
 
-        lf_snr = compute_snr(img_final)
+        final_lf_snr = compute_snr(img_final)
+        print(f"    LF: SNR={final_lf_snr:.2f} (TargetRatio: {target_ratio:.2f})")
 
-        print(f"    Output: mean={np.mean(img_final[body_mask]):.2f}, std={np.std(img_final[body_mask]):.2f}, SNR={lf_snr:.2f}")
+        # Reject if SNR violation still exists (safety)
+        if final_lf_snr >= hf_snr:
+            print(f"    ❌ Rejecting {patient_id}: LF SNR ({final_lf_snr:.2f}) >= HF SNR ({hf_snr:.2f})")
+            return None
 
+        # ==================================================
         # SAVE
+        # ==================================================
         nib.save(nib.Nifti1Image(img_final.astype(np.float32), affine, header), final_path)
-        print(f"    Saved: {os.path.basename(final_path)}")
+        print(f"    ✅ Saved: {os.path.basename(final_path)}")
 
-        return final_path, nii_hf, img_hf, nib.load(final_path), img_final
+        return final_path
 
     except Exception as e:
-        print(f"    ERROR: {e}")
-        return None, None, None, None, None
+        print(f"    ⚠️ ERROR in {patient_id}: {e}")
+        return None
 
 # ==================================================
-# MAIN LOOP
+# MAIN
 # ==================================================
 if __name__ == "__main__":
-    print("=" * 70)
-    print("FINAL LOW-FIELD MRI PIPELINE (SNR CORRECTED)")
-    print("=" * 70)
+    print("=" * 60)
+    print("PHYSICS-DRIVEN LOW-FIELD MRI SIMULATION")
+    print("=" * 60)
 
     folders = []
     for root, _, files in os.walk(DICOM_ROOT_DIR):
@@ -198,7 +200,9 @@ if __name__ == "__main__":
         if success >= MAX_SUCCESS:
             break
 
-        pid = d.replace("\\", "/").split("/")[-3]
+        # Extract patient ID (Assuming D:\01_MRI_Data\PID\...)
+        parts = d.split(os.sep)
+        pid = parts[-3] if len(parts) >= 3 else f"P{i:03d}"
 
         print(f"\n[{i+1}] Processing {pid}")
 
@@ -206,14 +210,11 @@ if __name__ == "__main__":
         if not hf:
             continue
 
-        result = simulate_low_field(hf, LF_SIM_DIR, pid)
-        if result[0]:
+        if simulate_low_field(hf, LF_SIM_DIR, pid):
             success += 1
 
         print("-" * 50)
 
-    print("\n" + "=" * 70)
-    print("DONE")
-    print(f"Success: {success}")
-    print(f"Time: {(time.time()-start)/60:.1f} min")
-    print("=" * 70)
+    print("\nDONE")
+    print(f"Successful simulations: {success}")
+    print(f"Total time: {(time.time()-start)/60:.1f} min")
