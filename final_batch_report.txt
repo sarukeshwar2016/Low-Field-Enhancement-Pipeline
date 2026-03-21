@@ -1,119 +1,125 @@
-LINEAR MRI ENHANCEMENT BATCH REPORT
-========================================
+LINEAR MRI ENHANCEMENT (RESEARCH VERSION)
+==================================================
 
 PATIENT 0001
 ========================================
-HF Original          | Mean=  129.88 | Std=  152.18 | Skew=  1.34 | SNR= 59.08
-LF Simulated         | Mean=  129.88 | Std=  147.49 | Skew=  1.61 | SNR= 37.83
-N4                   | Mean=  129.88 | Std=  141.74 | Skew=  1.36 | SNR= 38.97
-Wiener               | Mean=  128.67 | Std=  138.61 | Skew=  1.34 | SNR= 53.68
-Final Enhanced       | Mean=  129.88 | Std=  139.91 | Skew=  1.34 | SNR= 53.68
+HF Original               | Mean=  129.88 | Std=  152.18 | Skew=  1.34 | SNR= 59.08
+LF Simulated              | Mean=  129.88 | Std=  147.49 | Skew=  1.61 | SNR= 37.83
+Stage 1: N4               | Mean=  129.88 | Std=  141.74 | Skew=  1.36 | SNR= 38.97
+Stage 2: Standardized     | Mean=  129.88 | Std=  145.89 | Skew=  1.29 | SNR= 41.12
+Stage 3: Wiener           | Mean=  129.88 | Std=  146.00 | Skew=  1.32 | SNR= 57.52
+Stage 4: Resolution Model | Mean=  129.87 | Std=  145.89 | Skew=  1.32 | SNR= 58.01
+Stage 5: Refinement       | Mean=  129.89 | Std=  146.05 | Skew=  1.32 | SNR= 57.81
+Final Enhanced            | Mean=  129.88 | Std=  146.04 | Skew=  1.32 | SNR= 57.81
 
-METRICS (HF vs Final):
-- PSNR: 21.60 dB
-- SSIM: 0.6933
-- Hist Overlap: 0.0132
+METRICS:
+PSNR=21.50, SSIM=0.7219, Hist=0.1375
 
 PATIENT 0002
 ========================================
-HF Original          | Mean=  128.17 | Std=  161.68 | Skew=  1.72 | SNR= 55.02
-LF Simulated         | Mean=  128.17 | Std=  142.79 | Skew=  1.90 | SNR= 29.38
-N4                   | Mean=  128.17 | Std=  134.33 | Skew=  1.57 | SNR= 29.53
-Wiener               | Mean=  128.17 | Std=  131.88 | Skew=  1.60 | SNR= 46.65
-Final Enhanced       | Mean=  128.17 | Std=  131.88 | Skew=  1.60 | SNR= 46.65
+HF Original               | Mean=  128.17 | Std=  161.68 | Skew=  1.72 | SNR= 55.02
+LF Simulated              | Mean=  128.17 | Std=  142.79 | Skew=  1.90 | SNR= 29.38
+Stage 1: N4               | Mean=  128.17 | Std=  134.33 | Skew=  1.57 | SNR= 29.53
+Stage 2: Standardized     | Mean=  128.17 | Std=  140.44 | Skew=  1.51 | SNR= 31.08
+Stage 3: Wiener           | Mean=  128.17 | Std=  140.19 | Skew=  1.58 | SNR= 47.14
+Stage 4: Resolution Model | Mean=  128.17 | Std=  140.07 | Skew=  1.58 | SNR= 47.77
+Stage 5: Refinement       | Mean=  128.17 | Std=  140.24 | Skew=  1.58 | SNR= 47.41
+Final Enhanced            | Mean=  128.17 | Std=  140.24 | Skew=  1.58 | SNR= 47.41
 
-METRICS (HF vs Final):
-- PSNR: 23.34 dB
-- SSIM: 0.7045
-- Hist Overlap: 0.0102
+METRICS:
+PSNR=23.61, SSIM=0.7324, Hist=0.1095
 
 PATIENT 0003
 ========================================
-HF Original          | Mean=   85.61 | Std=   98.34 | Skew=  2.28 | SNR= 38.81
-LF Simulated         | Mean=   85.61 | Std=   88.15 | Skew=  2.35 | SNR= 23.26
-N4                   | Mean=   85.61 | Std=   83.52 | Skew=  2.09 | SNR= 22.31
-Wiener               | Mean=   85.61 | Std=   79.51 | Skew=  1.97 | SNR= 32.50
-Final Enhanced       | Mean=   85.61 | Std=   79.51 | Skew=  1.97 | SNR= 32.50
+HF Original               | Mean=   85.61 | Std=   98.34 | Skew=  2.28 | SNR= 38.81
+LF Simulated              | Mean=   85.61 | Std=   88.15 | Skew=  2.35 | SNR= 23.26
+Stage 1: N4               | Mean=   85.61 | Std=   83.52 | Skew=  2.09 | SNR= 22.31
+Stage 2: Standardized     | Mean=   85.61 | Std=   83.95 | Skew=  1.56 | SNR= 22.74
+Stage 3: Wiener           | Mean=   85.61 | Std=   82.34 | Skew=  1.62 | SNR= 33.89
+Stage 4: Resolution Model | Mean=   85.60 | Std=   82.25 | Skew=  1.62 | SNR= 34.30
+Stage 5: Refinement       | Mean=   85.62 | Std=   82.36 | Skew=  1.62 | SNR= 34.07
+Final Enhanced            | Mean=   85.61 | Std=   82.36 | Skew=  1.62 | SNR= 34.07
 
-METRICS (HF vs Final):
-- PSNR: 25.74 dB
-- SSIM: 0.7260
-- Hist Overlap: 0.0121
+METRICS:
+PSNR=25.25, SSIM=0.7382, Hist=0.1254
 
 PATIENT 0004
 ========================================
-HF Original          | Mean=   68.00 | Std=   90.12 | Skew=  2.08 | SNR= 63.78
-LF Simulated         | Mean=   68.00 | Std=   80.82 | Skew=  1.94 | SNR= 35.02
-N4                   | Mean=   68.00 | Std=   77.63 | Skew=  1.83 | SNR= 33.33
-Wiener               | Mean=   68.00 | Std=   74.77 | Skew=  1.60 | SNR= 43.51
-Final Enhanced       | Mean=   68.00 | Std=   74.77 | Skew=  1.60 | SNR= 43.51
+HF Original               | Mean=   68.00 | Std=   90.12 | Skew=  2.08 | SNR= 63.78
+LF Simulated              | Mean=   68.00 | Std=   80.82 | Skew=  1.94 | SNR= 35.02
+Stage 1: N4               | Mean=   68.00 | Std=   77.63 | Skew=  1.83 | SNR= 33.33
+Stage 2: Standardized     | Mean=   68.00 | Std=   78.85 | Skew=  1.50 | SNR= 34.99
+Stage 3: Wiener           | Mean=   68.00 | Std=   78.41 | Skew=  1.52 | SNR= 47.53
+Stage 4: Resolution Model | Mean=   67.99 | Std=   78.32 | Skew=  1.52 | SNR= 47.98
+Stage 5: Refinement       | Mean=   68.01 | Std=   78.43 | Skew=  1.52 | SNR= 47.67
+Final Enhanced            | Mean=   68.00 | Std=   78.42 | Skew=  1.52 | SNR= 47.67
 
-METRICS (HF vs Final):
-- PSNR: 24.91 dB
-- SSIM: 0.7643
-- Hist Overlap: 0.0149
+METRICS:
+PSNR=24.71, SSIM=0.7846, Hist=0.1539
 
 PATIENT 0005
 ========================================
-HF Original          | Mean=  114.95 | Std=  138.41 | Skew=  1.76 | SNR= 44.89
-LF Simulated         | Mean=  114.95 | Std=  118.00 | Skew=  1.90 | SNR= 24.10
-N4                   | Mean=  114.95 | Std=  110.66 | Skew=  1.65 | SNR= 23.08
-Wiener               | Mean=  114.95 | Std=  105.85 | Skew=  1.60 | SNR= 30.95
-Final Enhanced       | Mean=  114.95 | Std=  105.85 | Skew=  1.60 | SNR= 30.95
+HF Original               | Mean=  114.95 | Std=  138.41 | Skew=  1.76 | SNR= 44.89
+LF Simulated              | Mean=  114.95 | Std=  118.00 | Skew=  1.90 | SNR= 24.10
+Stage 1: N4               | Mean=  114.95 | Std=  110.66 | Skew=  1.65 | SNR= 23.08
+Stage 2: Standardized     | Mean=  114.95 | Std=  115.80 | Skew=  1.45 | SNR= 24.06
+Stage 3: Wiener           | Mean=  114.95 | Std=  114.08 | Skew=  1.56 | SNR= 31.94
+Stage 4: Resolution Model | Mean=  114.94 | Std=  113.94 | Skew=  1.56 | SNR= 32.15
+Stage 5: Refinement       | Mean=  114.96 | Std=  114.11 | Skew=  1.56 | SNR= 32.01
+Final Enhanced            | Mean=  114.95 | Std=  114.11 | Skew=  1.56 | SNR= 32.01
 
-METRICS (HF vs Final):
-- PSNR: 22.84 dB
-- SSIM: 0.6777
-- Hist Overlap: 0.0111
+METRICS:
+PSNR=23.07, SSIM=0.7006, Hist=0.1167
 
 PATIENT 0006
 ========================================
-HF Original          | Mean=  114.02 | Std=  140.56 | Skew=  1.87 | SNR= 44.46
-LF Simulated         | Mean=  114.02 | Std=  129.82 | Skew=  2.05 | SNR= 29.16
-N4                   | Mean=  114.02 | Std=  123.48 | Skew=  1.88 | SNR= 28.44
-Wiener               | Mean=  114.02 | Std=  117.84 | Skew=  1.64 | SNR= 35.79
-Final Enhanced       | Mean=  114.02 | Std=  117.84 | Skew=  1.64 | SNR= 35.79
+HF Original               | Mean=  114.02 | Std=  140.56 | Skew=  1.87 | SNR= 44.46
+LF Simulated              | Mean=  114.02 | Std=  129.82 | Skew=  2.05 | SNR= 29.16
+Stage 1: N4               | Mean=  114.02 | Std=  123.48 | Skew=  1.88 | SNR= 28.44
+Stage 2: Standardized     | Mean=  114.02 | Std=  125.65 | Skew=  1.54 | SNR= 29.57
+Stage 3: Wiener           | Mean=  114.02 | Std=  124.94 | Skew=  1.59 | SNR= 38.33
+Stage 4: Resolution Model | Mean=  114.00 | Std=  124.83 | Skew=  1.59 | SNR= 38.50
+Stage 5: Refinement       | Mean=  114.04 | Std=  124.99 | Skew=  1.59 | SNR= 38.41
+Final Enhanced            | Mean=  114.02 | Std=  124.97 | Skew=  1.59 | SNR= 38.41
 
-METRICS (HF vs Final):
-- PSNR: 23.57 dB
-- SSIM: 0.7474
-- Hist Overlap: 0.0118
+METRICS:
+PSNR=23.53, SSIM=0.7663, Hist=0.1215
 
 PATIENT 0007
 ========================================
-HF Original          | Mean=   34.55 | Std=   27.47 | Skew=  0.94 | SNR= 15.07
-LF Simulated         | Mean=   34.55 | Std=   20.86 | Skew=  0.96 | SNR= 11.88
-N4                   | Mean=   34.55 | Std=   19.23 | Skew=  0.73 | SNR= 10.93
-Wiener               | Mean=   25.88 | Std=   10.54 | Skew=  1.07 | SNR= 18.10
-Final Enhanced       | Mean=   34.55 | Std=   14.06 | Skew=  1.07 | SNR= 18.10
+HF Original               | Mean=   34.55 | Std=   27.47 | Skew=  0.94 | SNR= 15.07
+LF Simulated              | Mean=   34.55 | Std=   20.86 | Skew=  0.96 | SNR= 11.88
+Stage 1: N4               | Mean=   34.55 | Std=   19.23 | Skew=  0.73 | SNR= 10.93
+Stage 2: Standardized     | Mean=   34.55 | Std=   21.27 | Skew=  0.61 | SNR= 10.96
+Stage 3: Wiener           | Mean=   30.27 | Std=   14.10 | Skew=  1.02 | SNR= 17.20
+Stage 4: Resolution Model | Mean=   30.27 | Std=   14.01 | Skew=  1.04 | SNR= 17.79
+Stage 5: Refinement       | Mean=   30.27 | Std=   14.06 | Skew=  1.03 | SNR= 17.49
+Final Enhanced            | Mean=   34.55 | Std=   16.05 | Skew=  1.03 | SNR= 17.49
 
-METRICS (HF vs Final):
-- PSNR: 21.69 dB
-- SSIM: 0.4226
-- Hist Overlap: 0.0452
+METRICS:
+PSNR=22.52, SSIM=0.4378, Hist=0.4638
 
 PATIENT 0008
 ========================================
-HF Original          | Mean=  117.89 | Std=  169.30 | Skew=  1.75 | SNR=161.76
-LF Simulated         | Mean=  123.01 | Std=   66.81 | Skew=  0.78 | SNR= 10.54
-N4                   | Mean=  117.89 | Std=   62.17 | Skew=  0.66 | SNR= 10.29
-Wiener               | Mean=  117.89 | Std=   27.01 | Skew=  0.81 | SNR= 14.57
-Final Enhanced       | Mean=  117.89 | Std=   27.01 | Skew=  0.81 | SNR= 14.57
+HF Original               | Mean=  117.89 | Std=  169.30 | Skew=  1.75 | SNR=161.76
+LF Simulated              | Mean=  123.01 | Std=   66.81 | Skew=  0.78 | SNR= 10.54
+Stage 1: N4               | Mean=  117.89 | Std=   62.17 | Skew=  0.66 | SNR= 10.29
+Stage 2: Standardized     | Mean=  117.89 | Std=   69.29 | Skew=  0.53 | SNR= 10.26
+Stage 3: Wiener           | Mean=  117.89 | Std=   30.02 | Skew=  0.83 | SNR= 13.45
+Stage 4: Resolution Model | Mean=  117.89 | Std=   29.14 | Skew=  0.89 | SNR= 13.96
+Stage 5: Refinement       | Mean=  117.89 | Std=   29.60 | Skew=  0.86 | SNR= 13.70
+Final Enhanced            | Mean=  117.89 | Std=   29.60 | Skew=  0.86 | SNR= 13.70
 
-METRICS (HF vs Final):
-- PSNR: 15.64 dB
-- SSIM: 0.1619
-- Hist Overlap: 0.0045
+METRICS:
+PSNR=15.75, SSIM=0.1647, Hist=0.0468
 
-==================================================
-FINAL BATCH SUMMARY
-==================================================
-Patient    |      SNR |     PSNR |     SSIM
-0001       |    53.68 |    21.60 |   0.6933
-0002       |    46.65 |    23.34 |   0.7045
-0003       |    32.50 |    25.74 |   0.7260
-0004       |    43.51 |    24.91 |   0.7643
-0005       |    30.95 |    22.84 |   0.6777
-0006       |    35.79 |    23.57 |   0.7474
-0007       |    18.10 |    21.69 |   0.4226
-0008       |    14.57 |    15.64 |   0.1619
+FINAL SUMMARY
+========================================
+0001 | SNR=57.81 | PSNR=21.50 | SSIM=0.7219
+0002 | SNR=47.41 | PSNR=23.61 | SSIM=0.7324
+0003 | SNR=34.07 | PSNR=25.25 | SSIM=0.7382
+0004 | SNR=47.67 | PSNR=24.71 | SSIM=0.7846
+0005 | SNR=32.01 | PSNR=23.07 | SSIM=0.7006
+0006 | SNR=38.41 | PSNR=23.53 | SSIM=0.7663
+0007 | SNR=17.49 | PSNR=22.52 | SSIM=0.4378
+0008 | SNR=13.70 | PSNR=15.75 | SSIM=0.1647
