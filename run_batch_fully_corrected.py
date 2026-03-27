@@ -92,7 +92,8 @@ def process_patient(lf_path, hf_path):
     mask = sitk.BinaryFillhole(mask)
     corrector = sitk.N4BiasFieldCorrectionImageFilter()
     corrector.SetMaximumNumberOfIterations([30,30,20,10])
-    data = sitk.GetArrayFromImage(corrector.Execute(lf_sitk, mask)).astype(np.float32)
+    data_sitk = corrector.Execute(lf_sitk, mask)
+    data = np.transpose(sitk.GetArrayFromImage(data_sitk), (2, 1, 0)).astype(np.float32)
     data = match_mean(data, hf_mean)
 
     # 2. Intensity Std

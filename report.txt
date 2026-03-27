@@ -1,0 +1,1335 @@
+PATIENT 0002
+========================================
+HF Original               | Mean=  128.17 | Std=  161.68 | Skew=  1.72 | SNR= 55.02
+LF Simulated              | Mean=  128.17 | Std=  142.57 | Skew=  1.90 | SNR= 29.29
+Stage 1: N4               | Mean=  128.17 | Std=  133.47 | Skew=  1.55 | SNR= 29.20
+Stage 2: Standardized     | Mean=  128.17 | Std=  139.65 | Skew=  1.49 | SNR= 30.76
+Stage 3: Wiener           | Mean=  128.17 | Std=  139.31 | Skew=  1.57 | SNR= 45.67
+Stage 4: Resolution Model | Mean=  128.16 | Std=  139.19 | Skew=  1.57 | SNR= 46.17
+Stage 5: Refinement       | Mean=  128.17 | Std=  139.36 | Skew=  1.57 | SNR= 45.88
+Final Enhanced            | Mean=  128.17 | Std=  139.35 | Skew=  1.57 | SNR= 45.88
+
+METRICS:
+PSNR=23.54, SSIM=0.7289
+
+
+PATIENT 0003
+========================================
+HF Original               | Mean=   85.61 | Std=   98.34 | Skew=  2.28 | SNR= 38.81
+LF Simulated              | Mean=   85.61 | Std=   83.82 | Skew=  2.35 | SNR= 20.60
+Stage 1: N4               | Mean=   85.61 | Std=   78.44 | Skew=  2.05 | SNR= 19.51
+Stage 2: Standardized     | Mean=   85.61 | Std=   79.89 | Skew=  1.54 | SNR= 19.89
+Stage 3: Wiener           | Mean=   85.61 | Std=   77.24 | Skew=  1.67 | SNR= 30.98
+Stage 4: Resolution Model | Mean=   85.60 | Std=   77.13 | Skew=  1.67 | SNR= 31.55
+Stage 5: Refinement       | Mean=   85.61 | Std=   77.25 | Skew=  1.67 | SNR= 31.20
+Final Enhanced            | Mean=   85.61 | Std=   77.25 | Skew=  1.67 | SNR= 31.20
+
+METRICS:
+PSNR=25.08, SSIM=0.6995
+
+
+PATIENT 0004
+========================================
+HF Original               | Mean=   68.00 | Std=   90.12 | Skew=  2.08 | SNR= 63.78
+LF Simulated              | Mean=   68.00 | Std=   82.90 | Skew=  1.94 | SNR= 38.34
+Stage 1: N4               | Mean=   68.00 | Std=   79.39 | Skew=  1.82 | SNR= 36.01
+Stage 2: Standardized     | Mean=   68.00 | Std=   80.29 | Skew=  1.50 | SNR= 37.74
+Stage 3: Wiener           | Mean=   68.00 | Std=   79.80 | Skew=  1.50 | SNR= 49.54
+Stage 4: Resolution Model | Mean=   68.00 | Std=   79.72 | Skew=  1.50 | SNR= 49.93
+Stage 5: Refinement       | Mean=   68.02 | Std=   79.83 | Skew=  1.50 | SNR= 49.71
+Final Enhanced            | Mean=   68.00 | Std=   79.81 | Skew=  1.50 | SNR= 49.71
+
+METRICS:
+PSNR=24.66, SSIM=0.7987
+
+
+PATIENT 0005
+========================================
+HF Original               | Mean=  114.95 | Std=  138.41 | Skew=  1.76 | SNR= 44.89
+LF Simulated              | Mean=  114.95 | Std=  126.19 | Skew=  1.89 | SNR= 29.02
+Stage 1: N4               | Mean=  114.95 | Std=  119.54 | Skew=  1.67 | SNR= 28.05
+Stage 2: Standardized     | Mean=  114.95 | Std=  123.69 | Skew=  1.48 | SNR= 29.29
+Stage 3: Wiener           | Mean=  114.95 | Std=  123.10 | Skew=  1.53 | SNR= 38.35
+Stage 4: Resolution Model | Mean=  114.94 | Std=  122.97 | Skew=  1.53 | SNR= 38.55
+Stage 5: Refinement       | Mean=  114.97 | Std=  123.14 | Skew=  1.53 | SNR= 38.41
+Final Enhanced            | Mean=  114.95 | Std=  123.13 | Skew=  1.53 | SNR= 38.41
+
+METRICS:
+PSNR=23.26, SSIM=0.7548
+
+
+PATIENT 0006
+========================================
+HF Original               | Mean=  114.02 | Std=  140.56 | Skew=  1.87 | SNR= 44.46
+LF Simulated              | Mean=  114.02 | Std=  123.67 | Skew=  2.05 | SNR= 25.55
+Stage 1: N4               | Mean=  114.02 | Std=  115.94 | Skew=  1.87 | SNR= 24.47
+Stage 2: Standardized     | Mean=  114.02 | Std=  118.85 | Skew=  1.50 | SNR= 25.38
+Stage 3: Wiener           | Mean=  114.02 | Std=  117.42 | Skew=  1.59 | SNR= 32.60
+Stage 4: Resolution Model | Mean=  114.00 | Std=  117.30 | Skew=  1.59 | SNR= 32.75
+Stage 5: Refinement       | Mean=  114.03 | Std=  117.46 | Skew=  1.59 | SNR= 32.64
+Final Enhanced            | Mean=  114.02 | Std=  117.45 | Skew=  1.59 | SNR= 32.64
+
+METRICS:
+PSNR=23.29, SSIM=0.7253
+
+
+PATIENT 0009
+========================================
+HF Original               | Mean=  127.71 | Std=  164.55 | Skew=  1.50 | SNR= 86.60
+LF Simulated              | Mean=  127.71 | Std=  162.40 | Skew=  1.68 | SNR= 52.73
+Stage 1: N4               | Mean=  127.71 | Std=  162.06 | Skew=  1.61 | SNR= 56.40
+Stage 2: Standardized     | Mean=  127.71 | Std=  164.93 | Skew=  1.53 | SNR= 60.25
+Stage 3: Wiener           | Mean=  127.71 | Std=  164.32 | Skew=  1.53 | SNR= 86.02
+Stage 4: Resolution Model | Mean=  127.70 | Std=  164.19 | Skew=  1.53 | SNR= 86.98
+Stage 5: Refinement       | Mean=  127.78 | Std=  164.38 | Skew=  1.53 | SNR= 86.50
+Final Enhanced            | Mean=  127.71 | Std=  164.30 | Skew=  1.53 | SNR= 86.50
+
+METRICS:
+PSNR=22.54, SSIM=0.8228
+
+
+PATIENT 0010
+========================================
+HF Original               | Mean=  152.31 | Std=  178.16 | Skew=  1.29 | SNR= 78.26
+LF Simulated              | Mean=  152.31 | Std=  194.56 | Skew=  1.69 | SNR= 53.42
+Stage 1: N4               | Mean=  152.31 | Std=  193.99 | Skew=  1.58 | SNR= 57.91
+Stage 2: Standardized     | Mean=  152.31 | Std=  197.91 | Skew=  1.52 | SNR= 62.27
+Stage 3: Wiener           | Mean=  138.59 | Std=  179.78 | Skew=  1.53 | SNR= 86.01
+Stage 4: Resolution Model | Mean=  138.57 | Std=  179.65 | Skew=  1.53 | SNR= 86.78
+Stage 5: Refinement       | Mean=  138.63 | Std=  179.83 | Skew=  1.53 | SNR= 86.48
+Final Enhanced            | Mean=  152.31 | Std=  197.58 | Skew=  1.53 | SNR= 86.48
+
+METRICS:
+PSNR=21.43, SSIM=0.7208
+
+
+PATIENT 0011
+========================================
+HF Original               | Mean=   45.74 | Std=   49.19 | Skew=  2.64 | SNR= 46.67
+LF Simulated              | Mean=   45.74 | Std=   45.73 | Skew=  2.52 | SNR= 25.01
+Stage 1: N4               | Mean=   45.74 | Std=   39.41 | Skew=  1.88 | SNR= 20.84
+Stage 2: Standardized     | Mean=   45.74 | Std=   38.11 | Skew=  0.90 | SNR= 20.74
+Stage 3: Wiener           | Mean=   45.74 | Std=   37.13 | Skew=  0.97 | SNR= 28.06
+Stage 4: Resolution Model | Mean=   45.73 | Std=   37.08 | Skew=  0.97 | SNR= 28.29
+Stage 5: Refinement       | Mean=   45.74 | Std=   37.13 | Skew=  0.97 | SNR= 28.10
+Final Enhanced            | Mean=   45.74 | Std=   37.13 | Skew=  0.97 | SNR= 28.10
+
+METRICS:
+PSNR=26.20, SSIM=0.5937
+
+
+PATIENT 0012
+========================================
+HF Original               | Mean=  100.97 | Std=  126.05 | Skew=  1.84 | SNR= 43.88
+LF Simulated              | Mean=  100.97 | Std=  112.43 | Skew=  1.95 | SNR= 27.69
+Stage 1: N4               | Mean=  100.97 | Std=  105.83 | Skew=  1.71 | SNR= 26.45
+Stage 2: Standardized     | Mean=  100.97 | Std=  110.63 | Skew=  1.59 | SNR= 27.72
+Stage 3: Wiener           | Mean=  100.97 | Std=  110.05 | Skew=  1.66 | SNR= 34.84
+Stage 4: Resolution Model | Mean=  100.96 | Std=  109.92 | Skew=  1.66 | SNR= 34.96
+Stage 5: Refinement       | Mean=  100.99 | Std=  110.08 | Skew=  1.66 | SNR= 34.89
+Final Enhanced            | Mean=  100.97 | Std=  110.07 | Skew=  1.66 | SNR= 34.89
+
+METRICS:
+PSNR=24.16, SSIM=0.7430
+
+
+PATIENT 0013
+========================================
+HF Original               | Mean=  116.06 | Std=  137.74 | Skew=  1.60 | SNR= 53.26
+LF Simulated              | Mean=  116.06 | Std=  121.66 | Skew=  1.68 | SNR= 27.60
+Stage 1: N4               | Mean=  116.06 | Std=  114.52 | Skew=  1.50 | SNR= 25.72
+Stage 2: Standardized     | Mean=  116.06 | Std=  119.83 | Skew=  1.36 | SNR= 26.96
+Stage 3: Wiener           | Mean=  116.06 | Std=  119.18 | Skew=  1.44 | SNR= 42.79
+Stage 4: Resolution Model | Mean=  116.05 | Std=  119.07 | Skew=  1.44 | SNR= 43.51
+Stage 5: Refinement       | Mean=  116.07 | Std=  119.22 | Skew=  1.44 | SNR= 43.13
+Final Enhanced            | Mean=  116.06 | Std=  119.22 | Skew=  1.44 | SNR= 43.13
+
+METRICS:
+PSNR=23.77, SSIM=0.7492
+
+
+PATIENT 0014
+========================================
+HF Original               | Mean=  130.30 | Std=  154.58 | Skew=  1.41 | SNR= 63.19
+LF Simulated              | Mean=  130.30 | Std=  141.05 | Skew=  1.48 | SNR= 36.57
+Stage 1: N4               | Mean=  130.30 | Std=  132.29 | Skew=  1.27 | SNR= 33.72
+Stage 2: Standardized     | Mean=  130.30 | Std=  136.10 | Skew=  1.17 | SNR= 35.28
+Stage 3: Wiener           | Mean=  130.30 | Std=  136.25 | Skew=  1.22 | SNR= 47.50
+Stage 4: Resolution Model | Mean=  130.29 | Std=  136.13 | Skew=  1.22 | SNR= 47.74
+Stage 5: Refinement       | Mean=  130.32 | Std=  136.29 | Skew=  1.22 | SNR= 47.69
+Final Enhanced            | Mean=  130.30 | Std=  136.27 | Skew=  1.22 | SNR= 47.69
+
+METRICS:
+PSNR=23.86, SSIM=0.7682
+
+
+PATIENT 0015
+========================================
+HF Original               | Mean=  137.82 | Std=  156.18 | Skew=  1.30 | SNR= 50.08
+LF Simulated              | Mean=  137.82 | Std=  150.20 | Skew=  1.57 | SNR= 32.38
+Stage 1: N4               | Mean=  137.82 | Std=  143.33 | Skew=  1.38 | SNR= 31.68
+Stage 2: Standardized     | Mean=  137.82 | Std=  148.83 | Skew=  1.30 | SNR= 33.35
+Stage 3: Wiener           | Mean=  137.82 | Std=  149.11 | Skew=  1.35 | SNR= 44.93
+Stage 4: Resolution Model | Mean=  137.80 | Std=  148.98 | Skew=  1.35 | SNR= 45.20
+Stage 5: Refinement       | Mean=  137.84 | Std=  149.15 | Skew=  1.35 | SNR= 45.07
+Final Enhanced            | Mean=  137.82 | Std=  149.14 | Skew=  1.35 | SNR= 45.07
+
+METRICS:
+PSNR=22.01, SSIM=0.6797
+
+
+PATIENT 0016
+========================================
+HF Original               | Mean=  118.13 | Std=  149.93 | Skew=  1.69 | SNR= 62.67
+LF Simulated              | Mean=  118.13 | Std=  140.91 | Skew=  1.74 | SNR= 40.30
+Stage 1: N4               | Mean=  118.13 | Std=  135.71 | Skew=  1.62 | SNR= 38.57
+Stage 2: Standardized     | Mean=  118.13 | Std=  138.39 | Skew=  1.43 | SNR= 40.65
+Stage 3: Wiener           | Mean=  118.13 | Std=  137.84 | Skew=  1.44 | SNR= 52.89
+Stage 4: Resolution Model | Mean=  118.11 | Std=  137.71 | Skew=  1.44 | SNR= 53.10
+Stage 5: Refinement       | Mean=  118.16 | Std=  137.89 | Skew=  1.44 | SNR= 53.01
+Final Enhanced            | Mean=  118.13 | Std=  137.85 | Skew=  1.44 | SNR= 53.01
+
+METRICS:
+PSNR=24.01, SSIM=0.7956
+
+
+PATIENT 0019
+========================================
+HF Original               | Mean=  120.07 | Std=  158.31 | Skew=  1.85 | SNR= 52.73
+LF Simulated              | Mean=  120.07 | Std=  144.57 | Skew=  2.03 | SNR= 32.72
+Stage 1: N4               | Mean=  120.07 | Std=  139.95 | Skew=  1.84 | SNR= 33.16
+Stage 2: Standardized     | Mean=  120.07 | Std=  144.89 | Skew=  1.73 | SNR= 35.00
+Stage 3: Wiener           | Mean=  120.07 | Std=  145.01 | Skew=  1.78 | SNR= 49.98
+Stage 4: Resolution Model | Mean=  120.06 | Std=  144.90 | Skew=  1.78 | SNR= 50.37
+Stage 5: Refinement       | Mean=  120.10 | Std=  145.07 | Skew=  1.78 | SNR= 50.17
+Final Enhanced            | Mean=  120.07 | Std=  145.03 | Skew=  1.78 | SNR= 50.17
+
+METRICS:
+PSNR=23.78, SSIM=0.7674
+
+
+PATIENT 0021
+========================================
+HF Original               | Mean=  113.05 | Std=  135.01 | Skew=  1.71 | SNR= 54.33
+LF Simulated              | Mean=  113.05 | Std=  118.94 | Skew=  1.80 | SNR= 26.62
+Stage 1: N4               | Mean=  113.05 | Std=  106.62 | Skew=  1.53 | SNR= 23.36
+Stage 2: Standardized     | Mean=  113.05 | Std=  111.52 | Skew=  1.36 | SNR= 24.34
+Stage 3: Wiener           | Mean=  113.05 | Std=  109.67 | Skew=  1.44 | SNR= 31.00
+Stage 4: Resolution Model | Mean=  113.04 | Std=  109.55 | Skew=  1.44 | SNR= 31.14
+Stage 5: Refinement       | Mean=  113.07 | Std=  109.70 | Skew=  1.45 | SNR= 31.07
+Final Enhanced            | Mean=  113.05 | Std=  109.69 | Skew=  1.45 | SNR= 31.07
+
+METRICS:
+PSNR=23.60, SSIM=0.7122
+
+
+PATIENT 0022
+========================================
+HF Original               | Mean=  187.31 | Std=  208.53 | Skew=  1.16 | SNR= 64.38
+LF Simulated              | Mean=  187.31 | Std=  195.40 | Skew=  1.43 | SNR= 29.51
+Stage 1: N4               | Mean=  187.31 | Std=  176.47 | Skew=  1.06 | SNR= 28.22
+Stage 2: Standardized     | Mean=  187.31 | Std=  185.31 | Skew=  1.02 | SNR= 29.73
+Stage 3: Wiener           | Mean=  187.31 | Std=  184.25 | Skew=  1.08 | SNR= 43.72
+Stage 4: Resolution Model | Mean=  187.29 | Std=  184.11 | Skew=  1.09 | SNR= 44.30
+Stage 5: Refinement       | Mean=  187.33 | Std=  184.28 | Skew=  1.08 | SNR= 43.91
+Final Enhanced            | Mean=  187.31 | Std=  184.26 | Skew=  1.08 | SNR= 43.91
+
+METRICS:
+PSNR=20.26, SSIM=0.6578
+
+
+PATIENT 0023
+========================================
+HF Original               | Mean=  135.59 | Std=  154.66 | Skew=  1.50 | SNR= 55.41
+LF Simulated              | Mean=  135.59 | Std=  161.23 | Skew=  1.88 | SNR= 36.97
+Stage 1: N4               | Mean=  135.59 | Std=  158.52 | Skew=  1.67 | SNR= 38.54
+Stage 2: Standardized     | Mean=  135.59 | Std=  164.15 | Skew=  1.62 | SNR= 40.93
+Stage 3: Wiener           | Mean=  129.26 | Std=  156.68 | Skew=  1.65 | SNR= 58.13
+Stage 4: Resolution Model | Mean=  129.24 | Std=  156.57 | Skew=  1.65 | SNR= 58.60
+Stage 5: Refinement       | Mean=  129.28 | Std=  156.73 | Skew=  1.65 | SNR= 58.34
+Final Enhanced            | Mean=  135.59 | Std=  164.38 | Skew=  1.65 | SNR= 58.34
+
+METRICS:
+PSNR=20.45, SSIM=0.7114
+
+
+PATIENT 0024
+========================================
+HF Original               | Mean=   96.65 | Std=  117.09 | Skew=  1.85 | SNR= 40.81
+LF Simulated              | Mean=   96.65 | Std=  104.44 | Skew=  2.04 | SNR= 24.90
+Stage 1: N4               | Mean=   96.65 | Std=   96.72 | Skew=  1.78 | SNR= 23.42
+Stage 2: Standardized     | Mean=   96.65 | Std=  101.32 | Skew=  1.60 | SNR= 24.42
+Stage 3: Wiener           | Mean=   96.65 | Std=  100.47 | Skew=  1.71 | SNR= 31.36
+Stage 4: Resolution Model | Mean=   96.64 | Std=  100.34 | Skew=  1.71 | SNR= 31.54
+Stage 5: Refinement       | Mean=   96.66 | Std=  100.48 | Skew=  1.71 | SNR= 31.43
+Final Enhanced            | Mean=   96.65 | Std=  100.48 | Skew=  1.71 | SNR= 31.43
+
+METRICS:
+PSNR=24.74, SSIM=0.7057
+
+
+PATIENT 0025
+========================================
+HF Original               | Mean=   85.34 | Std=  114.45 | Skew=  1.95 | SNR= 63.61
+LF Simulated              | Mean=   85.34 | Std=   99.74 | Skew=  1.98 | SNR= 32.64
+Stage 1: N4               | Mean=   85.34 | Std=   93.76 | Skew=  1.75 | SNR= 30.64
+Stage 2: Standardized     | Mean=   85.34 | Std=   96.30 | Skew=  1.49 | SNR= 32.23
+Stage 3: Wiener           | Mean=   85.34 | Std=   95.86 | Skew=  1.53 | SNR= 43.89
+Stage 4: Resolution Model | Mean=   85.33 | Std=   95.77 | Skew=  1.53 | SNR= 44.32
+Stage 5: Refinement       | Mean=   85.35 | Std=   95.90 | Skew=  1.53 | SNR= 44.07
+Final Enhanced            | Mean=   85.34 | Std=   95.89 | Skew=  1.53 | SNR= 44.07
+
+METRICS:
+PSNR=23.66, SSIM=0.7402
+
+
+PATIENT 0026
+========================================
+HF Original               | Mean=  108.39 | Std=  146.26 | Skew=  1.80 | SNR= 66.99
+LF Simulated              | Mean=  108.39 | Std=  133.90 | Skew=  1.91 | SNR= 37.91
+Stage 1: N4               | Mean=  108.39 | Std=  128.91 | Skew=  1.77 | SNR= 37.25
+Stage 2: Standardized     | Mean=  108.39 | Std=  131.80 | Skew=  1.57 | SNR= 39.39
+Stage 3: Wiener           | Mean=  108.39 | Std=  131.42 | Skew=  1.59 | SNR= 51.21
+Stage 4: Resolution Model | Mean=  108.38 | Std=  131.31 | Skew=  1.59 | SNR= 51.52
+Stage 5: Refinement       | Mean=  108.41 | Std=  131.48 | Skew=  1.59 | SNR= 51.37
+Final Enhanced            | Mean=  108.39 | Std=  131.45 | Skew=  1.59 | SNR= 51.37
+
+METRICS:
+PSNR=23.87, SSIM=0.7785
+
+
+PATIENT 0029
+========================================
+HF Original               | Mean=  149.80 | Std=  169.28 | Skew=  1.15 | SNR= 71.53
+LF Simulated              | Mean=  149.80 | Std=  162.69 | Skew=  1.36 | SNR= 37.56
+Stage 1: N4               | Mean=  149.80 | Std=  158.26 | Skew=  1.20 | SNR= 38.38
+Stage 2: Standardized     | Mean=  149.80 | Std=  163.48 | Skew=  1.14 | SNR= 40.59
+Stage 3: Wiener           | Mean=  149.80 | Std=  163.80 | Skew=  1.18 | SNR= 61.97
+Stage 4: Resolution Model | Mean=  149.78 | Std=  163.69 | Skew=  1.18 | SNR= 62.78
+Stage 5: Refinement       | Mean=  149.82 | Std=  163.83 | Skew=  1.18 | SNR= 62.22
+Final Enhanced            | Mean=  149.80 | Std=  163.81 | Skew=  1.18 | SNR= 62.22
+
+METRICS:
+PSNR=22.56, SSIM=0.7252
+
+
+PATIENT 0030
+========================================
+HF Original               | Mean=   94.58 | Std=  127.76 | Skew=  1.89 | SNR= 63.04
+LF Simulated              | Mean=   94.58 | Std=  116.66 | Skew=  2.12 | SNR= 34.65
+Stage 1: N4               | Mean=   94.58 | Std=  111.88 | Skew=  1.84 | SNR= 35.79
+Stage 2: Standardized     | Mean=   94.58 | Std=  115.22 | Skew=  1.70 | SNR= 37.86
+Stage 3: Wiener           | Mean=   94.58 | Std=  115.18 | Skew=  1.74 | SNR= 56.63
+Stage 4: Resolution Model | Mean=   94.57 | Std=  115.08 | Skew=  1.74 | SNR= 57.65
+Stage 5: Refinement       | Mean=   94.59 | Std=  115.22 | Skew=  1.74 | SNR= 57.08
+Final Enhanced            | Mean=   94.58 | Std=  115.20 | Skew=  1.74 | SNR= 57.08
+
+METRICS:
+PSNR=23.60, SSIM=0.7081
+
+
+PATIENT 0031
+========================================
+HF Original               | Mean=  166.35 | Std=  180.08 | Skew=  1.27 | SNR= 50.96
+LF Simulated              | Mean=  166.35 | Std=  174.25 | Skew=  1.50 | SNR= 30.78
+Stage 1: N4               | Mean=  166.35 | Std=  163.40 | Skew=  1.20 | SNR= 29.98
+Stage 2: Standardized     | Mean=  166.35 | Std=  170.58 | Skew=  1.15 | SNR= 31.44
+Stage 3: Wiener           | Mean=  166.35 | Std=  170.24 | Skew=  1.19 | SNR= 46.50
+Stage 4: Resolution Model | Mean=  166.34 | Std=  170.13 | Skew=  1.19 | SNR= 47.10
+Stage 5: Refinement       | Mean=  166.38 | Std=  170.30 | Skew=  1.19 | SNR= 46.69
+Final Enhanced            | Mean=  166.35 | Std=  170.27 | Skew=  1.19 | SNR= 46.69
+
+METRICS:
+PSNR=22.08, SSIM=0.7261
+
+
+PATIENT 0032
+========================================
+HF Original               | Mean=  107.88 | Std=  135.46 | Skew=  1.71 | SNR= 57.07
+LF Simulated              | Mean=  107.88 | Std=  128.66 | Skew=  1.87 | SNR= 37.01
+Stage 1: N4               | Mean=  107.88 | Std=  123.60 | Skew=  1.64 | SNR= 36.93
+Stage 2: Standardized     | Mean=  107.88 | Std=  127.75 | Skew=  1.55 | SNR= 39.24
+Stage 3: Wiener           | Mean=  107.88 | Std=  127.68 | Skew=  1.57 | SNR= 52.13
+Stage 4: Resolution Model | Mean=  107.86 | Std=  127.58 | Skew=  1.57 | SNR= 52.41
+Stage 5: Refinement       | Mean=  107.90 | Std=  127.73 | Skew=  1.57 | SNR= 52.28
+Final Enhanced            | Mean=  107.88 | Std=  127.70 | Skew=  1.57 | SNR= 52.28
+
+METRICS:
+PSNR=23.73, SSIM=0.7871
+
+
+PATIENT 0033
+========================================
+HF Original               | Mean=  126.40 | Std=  146.64 | Skew=  1.53 | SNR= 48.96
+LF Simulated              | Mean=  126.40 | Std=  139.26 | Skew=  1.74 | SNR= 30.13
+Stage 1: N4               | Mean=  126.40 | Std=  129.80 | Skew=  1.44 | SNR= 28.52
+Stage 2: Standardized     | Mean=  126.40 | Std=  135.18 | Skew=  1.34 | SNR= 29.94
+Stage 3: Wiener           | Mean=  126.40 | Std=  134.76 | Skew=  1.39 | SNR= 39.14
+Stage 4: Resolution Model | Mean=  126.39 | Std=  134.64 | Skew=  1.39 | SNR= 39.39
+Stage 5: Refinement       | Mean=  126.42 | Std=  134.79 | Skew=  1.39 | SNR= 39.27
+Final Enhanced            | Mean=  126.40 | Std=  134.78 | Skew=  1.39 | SNR= 39.27
+
+METRICS:
+PSNR=22.36, SSIM=0.7375
+
+
+PATIENT 0034
+========================================
+HF Original               | Mean=  101.69 | Std=  131.59 | Skew=  1.85 | SNR= 60.66
+LF Simulated              | Mean=  101.69 | Std=  117.63 | Skew=  1.81 | SNR= 35.94
+Stage 1: N4               | Mean=  101.69 | Std=  111.98 | Skew=  1.62 | SNR= 33.84
+Stage 2: Standardized     | Mean=  101.69 | Std=  114.68 | Skew=  1.41 | SNR= 35.56
+Stage 3: Wiener           | Mean=  101.69 | Std=  114.35 | Skew=  1.43 | SNR= 49.17
+Stage 4: Resolution Model | Mean=  101.68 | Std=  114.24 | Skew=  1.43 | SNR= 49.49
+Stage 5: Refinement       | Mean=  101.70 | Std=  114.38 | Skew=  1.43 | SNR= 49.42
+Final Enhanced            | Mean=  101.69 | Std=  114.36 | Skew=  1.43 | SNR= 49.42
+
+METRICS:
+PSNR=25.41, SSIM=0.8219
+
+
+PATIENT 0035
+========================================
+HF Original               | Mean=  149.91 | Std=  158.64 | Skew=  1.18 | SNR= 46.98
+LF Simulated              | Mean=  149.91 | Std=  142.59 | Skew=  1.33 | SNR= 26.86
+Stage 1: N4               | Mean=  149.91 | Std=  133.02 | Skew=  1.10 | SNR= 25.16
+Stage 2: Standardized     | Mean=  149.91 | Std=  137.33 | Skew=  0.92 | SNR= 25.87
+Stage 3: Wiener           | Mean=  149.91 | Std=  136.52 | Skew=  0.98 | SNR= 32.40
+Stage 4: Resolution Model | Mean=  149.88 | Std=  136.36 | Skew=  0.98 | SNR= 32.43
+Stage 5: Refinement       | Mean=  149.93 | Std=  136.55 | Skew=  0.98 | SNR= 32.37
+Final Enhanced            | Mean=  149.91 | Std=  136.54 | Skew=  0.98 | SNR= 32.37
+
+METRICS:
+PSNR=20.85, SSIM=0.6837
+
+
+PATIENT 0036
+========================================
+HF Original               | Mean=  131.73 | Std=  148.61 | Skew=  1.50 | SNR= 45.68
+LF Simulated              | Mean=  131.73 | Std=  130.27 | Skew=  1.61 | SNR= 24.87
+Stage 1: N4               | Mean=  131.73 | Std=  123.03 | Skew=  1.43 | SNR= 23.71
+Stage 2: Standardized     | Mean=  131.73 | Std=  128.29 | Skew=  1.26 | SNR= 24.58
+Stage 3: Wiener           | Mean=  131.73 | Std=  127.40 | Skew=  1.35 | SNR= 34.22
+Stage 4: Resolution Model | Mean=  131.72 | Std=  127.25 | Skew=  1.35 | SNR= 34.52
+Stage 5: Refinement       | Mean=  131.75 | Std=  127.43 | Skew=  1.35 | SNR= 34.35
+Final Enhanced            | Mean=  131.73 | Std=  127.42 | Skew=  1.35 | SNR= 34.35
+
+METRICS:
+PSNR=22.58, SSIM=0.7191
+
+
+PATIENT 0037
+========================================
+HF Original               | Mean=   89.86 | Std=  122.33 | Skew=  2.05 | SNR= 62.64
+LF Simulated              | Mean=   89.86 | Std=  111.72 | Skew=  2.26 | SNR= 33.73
+Stage 1: N4               | Mean=   89.86 | Std=  108.77 | Skew=  2.04 | SNR= 34.32
+Stage 2: Standardized     | Mean=   89.86 | Std=  112.50 | Skew=  1.91 | SNR= 36.36
+Stage 3: Wiener           | Mean=   89.86 | Std=  112.01 | Skew=  1.93 | SNR= 52.41
+Stage 4: Resolution Model | Mean=   89.85 | Std=  111.90 | Skew=  1.93 | SNR= 53.03
+Stage 5: Refinement       | Mean=   89.87 | Std=  112.05 | Skew=  1.94 | SNR= 52.70
+Final Enhanced            | Mean=   89.86 | Std=  112.04 | Skew=  1.94 | SNR= 52.70
+
+METRICS:
+PSNR=24.74, SSIM=0.7467
+
+
+PATIENT 0038
+========================================
+HF Original               | Mean=  160.61 | Std=  180.38 | Skew=  1.31 | SNR= 51.81
+LF Simulated              | Mean=  160.61 | Std=  157.65 | Skew=  1.50 | SNR= 24.28
+Stage 1: N4               | Mean=  160.61 | Std=  132.71 | Skew=  0.99 | SNR= 20.81
+Stage 2: Standardized     | Mean=  160.61 | Std=  141.47 | Skew=  0.95 | SNR= 21.70
+Stage 3: Wiener           | Mean=  160.61 | Std=  138.38 | Skew=  1.07 | SNR= 30.33
+Stage 4: Resolution Model | Mean=  160.60 | Std=  138.22 | Skew=  1.07 | SNR= 30.65
+Stage 5: Refinement       | Mean=  160.61 | Std=  138.39 | Skew=  1.07 | SNR= 30.46
+Final Enhanced            | Mean=  160.61 | Std=  138.39 | Skew=  1.07 | SNR= 30.46
+
+METRICS:
+PSNR=20.14, SSIM=0.6198
+
+
+PATIENT 0040
+========================================
+HF Original               | Mean=   96.99 | Std=  123.19 | Skew=  1.83 | SNR= 53.68
+LF Simulated              | Mean=   96.99 | Std=  110.43 | Skew=  1.80 | SNR= 33.03
+Stage 1: N4               | Mean=   96.99 | Std=  103.87 | Skew=  1.60 | SNR= 31.23
+Stage 2: Standardized     | Mean=   96.99 | Std=  106.67 | Skew=  1.40 | SNR= 32.72
+Stage 3: Wiener           | Mean=   96.99 | Std=  106.73 | Skew=  1.44 | SNR= 44.69
+Stage 4: Resolution Model | Mean=   96.98 | Std=  106.62 | Skew=  1.44 | SNR= 45.01
+Stage 5: Refinement       | Mean=   96.99 | Std=  106.76 | Skew=  1.44 | SNR= 44.86
+Final Enhanced            | Mean=   96.99 | Std=  106.75 | Skew=  1.44 | SNR= 44.86
+
+METRICS:
+PSNR=23.80, SSIM=0.7829
+
+
+PATIENT 0041
+========================================
+HF Original               | Mean=  124.42 | Std=  148.45 | Skew=  1.67 | SNR= 46.44
+LF Simulated              | Mean=  124.42 | Std=  137.23 | Skew=  2.00 | SNR= 26.83
+Stage 1: N4               | Mean=  124.42 | Std=  130.28 | Skew=  1.81 | SNR= 26.11
+Stage 2: Standardized     | Mean=  124.42 | Std=  135.88 | Skew=  1.64 | SNR= 27.38
+Stage 3: Wiener           | Mean=  124.42 | Std=  135.06 | Skew=  1.73 | SNR= 37.54
+Stage 4: Resolution Model | Mean=  124.41 | Std=  134.92 | Skew=  1.73 | SNR= 37.84
+Stage 5: Refinement       | Mean=  124.43 | Std=  135.09 | Skew=  1.74 | SNR= 37.63
+Final Enhanced            | Mean=  124.42 | Std=  135.09 | Skew=  1.74 | SNR= 37.63
+
+METRICS:
+PSNR=22.48, SSIM=0.6467
+
+
+PATIENT 0043
+========================================
+HF Original               | Mean=   80.46 | Std=  109.06 | Skew=  2.48 | SNR= 46.55
+LF Simulated              | Mean=   80.46 | Std=   99.57 | Skew=  2.57 | SNR= 30.42
+Stage 1: N4               | Mean=   80.46 | Std=   93.28 | Skew=  2.26 | SNR= 29.00
+Stage 2: Standardized     | Mean=   80.46 | Std=   94.82 | Skew=  1.90 | SNR= 30.23
+Stage 3: Wiener           | Mean=   80.46 | Std=   93.83 | Skew=  1.92 | SNR= 36.91
+Stage 4: Resolution Model | Mean=   80.46 | Std=   93.74 | Skew=  1.92 | SNR= 37.02
+Stage 5: Refinement       | Mean=   80.48 | Std=   93.88 | Skew=  1.92 | SNR= 36.94
+Final Enhanced            | Mean=   80.46 | Std=   93.86 | Skew=  1.92 | SNR= 36.94
+
+METRICS:
+PSNR=24.86, SSIM=0.7772
+
+
+PATIENT 0044
+========================================
+HF Original               | Mean=   42.70 | Std=   53.64 | Skew=  2.79 | SNR= 49.18
+LF Simulated              | Mean=   42.70 | Std=   49.29 | Skew=  2.72 | SNR= 27.94
+Stage 1: N4               | Mean=   42.70 | Std=   46.08 | Skew=  2.46 | SNR= 26.85
+Stage 2: Standardized     | Mean=   42.70 | Std=   45.03 | Skew=  1.68 | SNR= 27.43
+Stage 3: Wiener           | Mean=   42.70 | Std=   44.49 | Skew=  1.74 | SNR= 37.53
+Stage 4: Resolution Model | Mean=   42.70 | Std=   44.45 | Skew=  1.73 | SNR= 37.90
+Stage 5: Refinement       | Mean=   42.70 | Std=   44.50 | Skew=  1.74 | SNR= 37.69
+Final Enhanced            | Mean=   42.70 | Std=   44.50 | Skew=  1.74 | SNR= 37.69
+
+METRICS:
+PSNR=28.77, SSIM=0.7457
+
+
+PATIENT 0046
+========================================
+HF Original               | Mean=  147.30 | Std=  197.52 | Skew=  1.81 | SNR= 77.99
+LF Simulated              | Mean=  147.30 | Std=  179.69 | Skew=  1.62 | SNR= 46.29
+Stage 1: N4               | Mean=  147.30 | Std=  173.57 | Skew=  1.45 | SNR= 44.19
+Stage 2: Standardized     | Mean=  147.30 | Std=  177.46 | Skew=  1.33 | SNR= 47.03
+Stage 3: Wiener           | Mean=  147.30 | Std=  175.32 | Skew=  1.30 | SNR= 61.36
+Stage 4: Resolution Model | Mean=  147.28 | Std=  175.11 | Skew=  1.30 | SNR= 61.79
+Stage 5: Refinement       | Mean=  147.32 | Std=  175.37 | Skew=  1.30 | SNR= 61.53
+Final Enhanced            | Mean=  147.30 | Std=  175.35 | Skew=  1.30 | SNR= 61.53
+
+METRICS:
+PSNR=23.59, SSIM=0.7483
+
+
+PATIENT 0047
+========================================
+HF Original               | Mean=  123.95 | Std=  141.78 | Skew=  1.38 | SNR= 55.97
+LF Simulated              | Mean=  123.95 | Std=  126.39 | Skew=  1.39 | SNR= 31.71
+Stage 1: N4               | Mean=  123.95 | Std=  120.88 | Skew=  1.26 | SNR= 29.80
+Stage 2: Standardized     | Mean=  123.95 | Std=  124.63 | Skew=  1.10 | SNR= 31.15
+Stage 3: Wiener           | Mean=  123.95 | Std=  124.47 | Skew=  1.15 | SNR= 42.42
+Stage 4: Resolution Model | Mean=  123.94 | Std=  124.32 | Skew=  1.15 | SNR= 42.63
+Stage 5: Refinement       | Mean=  123.97 | Std=  124.49 | Skew=  1.15 | SNR= 42.52
+Final Enhanced            | Mean=  123.95 | Std=  124.47 | Skew=  1.15 | SNR= 42.52
+
+METRICS:
+PSNR=22.60, SSIM=0.7386
+
+
+PATIENT 0048
+========================================
+HF Original               | Mean=  125.54 | Std=  143.74 | Skew=  1.61 | SNR= 42.42
+LF Simulated              | Mean=  125.54 | Std=  121.63 | Skew=  1.72 | SNR= 22.28
+Stage 1: N4               | Mean=  125.54 | Std=  106.59 | Skew=  1.24 | SNR= 19.99
+Stage 2: Standardized     | Mean=  125.54 | Std=  113.50 | Skew=  1.16 | SNR= 20.78
+Stage 3: Wiener           | Mean=  125.54 | Std=  110.94 | Skew=  1.30 | SNR= 26.36
+Stage 4: Resolution Model | Mean=  125.53 | Std=  110.78 | Skew=  1.30 | SNR= 26.51
+Stage 5: Refinement       | Mean=  125.54 | Std=  110.95 | Skew=  1.30 | SNR= 26.42
+Final Enhanced            | Mean=  125.54 | Std=  110.95 | Skew=  1.30 | SNR= 26.42
+
+METRICS:
+PSNR=22.88, SSIM=0.6690
+
+
+PATIENT 0050
+========================================
+HF Original               | Mean=  141.09 | Std=  165.39 | Skew=  1.44 | SNR= 54.40
+LF Simulated              | Mean=  141.09 | Std=  153.93 | Skew=  1.66 | SNR= 32.09
+Stage 1: N4               | Mean=  141.09 | Std=  145.63 | Skew=  1.38 | SNR= 31.82
+Stage 2: Standardized     | Mean=  141.09 | Std=  150.67 | Skew=  1.28 | SNR= 33.31
+Stage 3: Wiener           | Mean=  141.09 | Std=  150.45 | Skew=  1.32 | SNR= 44.25
+Stage 4: Resolution Model | Mean=  141.07 | Std=  150.33 | Skew=  1.32 | SNR= 44.41
+Stage 5: Refinement       | Mean=  141.10 | Std=  150.49 | Skew=  1.32 | SNR= 44.29
+Final Enhanced            | Mean=  141.09 | Std=  150.48 | Skew=  1.32 | SNR= 44.29
+
+METRICS:
+PSNR=21.84, SSIM=0.7116
+
+
+PATIENT 0051
+========================================
+HF Original               | Mean=  111.97 | Std=  140.42 | Skew=  1.82 | SNR= 49.15
+LF Simulated              | Mean=  111.97 | Std=  120.00 | Skew=  1.86 | SNR= 28.01
+Stage 1: N4               | Mean=  111.97 | Std=  116.19 | Skew=  1.73 | SNR= 28.00
+Stage 2: Standardized     | Mean=  111.97 | Std=  119.33 | Skew=  1.47 | SNR= 29.16
+Stage 3: Wiener           | Mean=  111.97 | Std=  118.41 | Skew=  1.52 | SNR= 40.25
+Stage 4: Resolution Model | Mean=  111.96 | Std=  118.28 | Skew=  1.52 | SNR= 40.52
+Stage 5: Refinement       | Mean=  111.98 | Std=  118.46 | Skew=  1.52 | SNR= 40.40
+Final Enhanced            | Mean=  111.97 | Std=  118.45 | Skew=  1.52 | SNR= 40.40
+
+METRICS:
+PSNR=23.61, SSIM=0.7169
+
+
+PATIENT 0052
+========================================
+HF Original               | Mean=   90.60 | Std=  121.76 | Skew=  1.96 | SNR= 59.46
+LF Simulated              | Mean=   90.60 | Std=  107.59 | Skew=  1.89 | SNR= 35.54
+Stage 1: N4               | Mean=   90.60 | Std=  102.97 | Skew=  1.82 | SNR= 33.49
+Stage 2: Standardized     | Mean=   90.60 | Std=  104.81 | Skew=  1.52 | SNR= 35.18
+Stage 3: Wiener           | Mean=   90.60 | Std=  104.73 | Skew=  1.56 | SNR= 49.43
+Stage 4: Resolution Model | Mean=   90.59 | Std=  104.62 | Skew=  1.56 | SNR= 49.85
+Stage 5: Refinement       | Mean=   90.61 | Std=  104.76 | Skew=  1.56 | SNR= 49.67
+Final Enhanced            | Mean=   90.60 | Std=  104.75 | Skew=  1.56 | SNR= 49.67
+
+METRICS:
+PSNR=24.16, SSIM=0.7955
+
+
+PATIENT 0053
+========================================
+HF Original               | Mean=  127.80 | Std=  171.75 | Skew=  1.64 | SNR= 83.72
+LF Simulated              | Mean=  127.80 | Std=  181.79 | Skew=  1.96 | SNR= 60.02
+Stage 1: N4               | Mean=  127.80 | Std=  180.85 | Skew=  1.84 | SNR= 65.20
+Stage 2: Standardized     | Mean=  127.80 | Std=  183.43 | Skew=  1.75 | SNR= 70.15
+Stage 3: Wiener           | Mean=  109.55 | Std=  156.61 | Skew=  1.75 | SNR= 97.67
+Stage 4: Resolution Model | Mean=  109.54 | Std=  156.53 | Skew=  1.75 | SNR= 98.72
+Stage 5: Refinement       | Mean=  109.58 | Std=  156.67 | Skew=  1.75 | SNR= 98.27
+Final Enhanced            | Mean=  127.80 | Std=  182.72 | Skew=  1.75 | SNR= 98.27
+
+METRICS:
+PSNR=23.04, SSIM=0.7890
+
+
+PATIENT 0056
+========================================
+HF Original               | Mean=   43.42 | Std=   57.05 | Skew=  2.55 | SNR= 54.35
+LF Simulated              | Mean=   43.42 | Std=   50.50 | Skew=  2.54 | SNR= 30.03
+Stage 1: N4               | Mean=   43.42 | Std=   48.85 | Skew=  2.33 | SNR= 29.51
+Stage 2: Standardized     | Mean=   43.42 | Std=   47.18 | Skew=  1.45 | SNR= 30.17
+Stage 3: Wiener           | Mean=   43.42 | Std=   46.75 | Skew=  1.49 | SNR= 46.04
+Stage 4: Resolution Model | Mean=   43.42 | Std=   46.70 | Skew=  1.49 | SNR= 46.86
+Stage 5: Refinement       | Mean=   43.43 | Std=   46.75 | Skew=  1.49 | SNR= 46.31
+Final Enhanced            | Mean=   43.42 | Std=   46.75 | Skew=  1.49 | SNR= 46.31
+
+METRICS:
+PSNR=27.45, SSIM=0.7157
+
+
+PATIENT 0057
+========================================
+HF Original               | Mean=  133.07 | Std=  160.09 | Skew=  1.47 | SNR= 67.11
+LF Simulated              | Mean=  133.07 | Std=  168.92 | Skew=  1.96 | SNR= 39.92
+Stage 1: N4               | Mean=  133.07 | Std=  162.24 | Skew=  1.70 | SNR= 40.58
+Stage 2: Standardized     | Mean=  133.07 | Std=  167.50 | Skew=  1.62 | SNR= 43.45
+Stage 3: Wiener           | Mean=  133.07 | Std=  168.03 | Skew=  1.66 | SNR= 59.83
+Stage 4: Resolution Model | Mean=  133.05 | Std=  167.89 | Skew=  1.66 | SNR= 60.40
+Stage 5: Refinement       | Mean=  133.09 | Std=  168.07 | Skew=  1.66 | SNR= 60.11
+Final Enhanced            | Mean=  133.07 | Std=  168.04 | Skew=  1.66 | SNR= 60.11
+
+METRICS:
+PSNR=20.70, SSIM=0.6330
+
+
+PATIENT 0058
+========================================
+HF Original               | Mean=  109.73 | Std=  135.58 | Skew=  1.71 | SNR= 57.70
+LF Simulated              | Mean=  109.73 | Std=  123.14 | Skew=  1.70 | SNR= 36.26
+Stage 1: N4               | Mean=  109.73 | Std=  116.75 | Skew=  1.43 | SNR= 34.58
+Stage 2: Standardized     | Mean=  109.73 | Std=  118.86 | Skew=  1.24 | SNR= 35.88
+Stage 3: Wiener           | Mean=  109.73 | Std=  118.83 | Skew=  1.27 | SNR= 42.27
+Stage 4: Resolution Model | Mean=  109.72 | Std=  118.72 | Skew=  1.27 | SNR= 42.23
+Stage 5: Refinement       | Mean=  109.75 | Std=  118.87 | Skew=  1.27 | SNR= 42.29
+Final Enhanced            | Mean=  109.73 | Std=  118.85 | Skew=  1.27 | SNR= 42.29
+
+METRICS:
+PSNR=23.41, SSIM=0.7770
+
+
+PATIENT 0061
+========================================
+HF Original               | Mean=  161.27 | Std=  190.33 | Skew=  1.37 | SNR= 70.08
+LF Simulated              | Mean=  161.27 | Std=  185.73 | Skew=  1.59 | SNR= 39.52
+Stage 1: N4               | Mean=  161.27 | Std=  189.46 | Skew=  1.55 | SNR= 45.56
+Stage 2: Standardized     | Mean=  161.27 | Std=  194.79 | Skew=  1.51 | SNR= 48.35
+Stage 3: Wiener           | Mean=  148.97 | Std=  180.10 | Skew=  1.54 | SNR= 75.87
+Stage 4: Resolution Model | Mean=  148.96 | Std=  179.99 | Skew=  1.54 | SNR= 76.88
+Stage 5: Refinement       | Mean=  149.03 | Std=  180.16 | Skew=  1.54 | SNR= 76.41
+Final Enhanced            | Mean=  161.27 | Std=  194.95 | Skew=  1.54 | SNR= 76.41
+
+METRICS:
+PSNR=22.35, SSIM=0.7913
+
+
+PATIENT 0062
+========================================
+HF Original               | Mean=  159.98 | Std=  173.91 | Skew=  1.32 | SNR= 45.71
+LF Simulated              | Mean=  159.98 | Std=  156.06 | Skew=  1.54 | SNR= 24.19
+Stage 1: N4               | Mean=  159.98 | Std=  136.80 | Skew=  1.14 | SNR= 21.38
+Stage 2: Standardized     | Mean=  159.98 | Std=  144.60 | Skew=  1.03 | SNR= 22.27
+Stage 3: Wiener           | Mean=  159.98 | Std=  141.74 | Skew=  1.13 | SNR= 29.60
+Stage 4: Resolution Model | Mean=  159.96 | Std=  141.58 | Skew=  1.13 | SNR= 29.85
+Stage 5: Refinement       | Mean=  159.99 | Std=  141.76 | Skew=  1.13 | SNR= 29.68
+Final Enhanced            | Mean=  159.98 | Std=  141.75 | Skew=  1.13 | SNR= 29.68
+
+METRICS:
+PSNR=21.24, SSIM=0.6342
+
+
+PATIENT 0063
+========================================
+HF Original               | Mean=  132.44 | Std=  153.96 | Skew=  1.66 | SNR= 45.08
+LF Simulated              | Mean=  132.44 | Std=  140.74 | Skew=  1.78 | SNR= 27.03
+Stage 1: N4               | Mean=  132.44 | Std=  129.70 | Skew=  1.46 | SNR= 25.35
+Stage 2: Standardized     | Mean=  132.44 | Std=  136.08 | Skew=  1.35 | SNR= 26.56
+Stage 3: Wiener           | Mean=  132.44 | Std=  135.57 | Skew=  1.42 | SNR= 39.32
+Stage 4: Resolution Model | Mean=  132.42 | Std=  135.44 | Skew=  1.42 | SNR= 39.82
+Stage 5: Refinement       | Mean=  132.45 | Std=  135.62 | Skew=  1.42 | SNR= 39.58
+Final Enhanced            | Mean=  132.44 | Std=  135.61 | Skew=  1.42 | SNR= 39.58
+
+METRICS:
+PSNR=23.17, SSIM=0.7563
+
+
+PATIENT 0064
+========================================
+HF Original               | Mean=  144.28 | Std=  176.98 | Skew=  1.35 | SNR= 70.17
+LF Simulated              | Mean=  144.28 | Std=  185.76 | Skew=  1.74 | SNR= 46.47
+Stage 1: N4               | Mean=  144.28 | Std=  187.91 | Skew=  1.68 | SNR= 51.06
+Stage 2: Standardized     | Mean=  144.28 | Std=  193.17 | Skew=  1.64 | SNR= 54.95
+Stage 3: Wiener           | Mean=  127.10 | Std=  170.96 | Skew=  1.66 | SNR= 79.65
+Stage 4: Resolution Model | Mean=  127.08 | Std=  170.87 | Skew=  1.66 | SNR= 80.39
+Stage 5: Refinement       | Mean=  127.13 | Std=  171.01 | Skew=  1.66 | SNR= 80.02
+Final Enhanced            | Mean=  144.28 | Std=  194.08 | Skew=  1.66 | SNR= 80.02
+
+METRICS:
+PSNR=20.72, SSIM=0.7310
+
+
+PATIENT 0067
+========================================
+HF Original               | Mean=  139.12 | Std=  164.97 | Skew=  1.46 | SNR= 56.94
+LF Simulated              | Mean=  139.12 | Std=  175.10 | Skew=  1.92 | SNR= 38.97
+Stage 1: N4               | Mean=  139.12 | Std=  168.72 | Skew=  1.69 | SNR= 40.22
+Stage 2: Standardized     | Mean=  139.12 | Std=  174.08 | Skew=  1.59 | SNR= 42.93
+Stage 3: Wiener           | Mean=  129.84 | Std=  162.94 | Skew=  1.63 | SNR= 61.01
+Stage 4: Resolution Model | Mean=  129.82 | Std=  162.83 | Skew=  1.63 | SNR= 61.72
+Stage 5: Refinement       | Mean=  129.86 | Std=  162.99 | Skew=  1.63 | SNR= 61.37
+Final Enhanced            | Mean=  139.12 | Std=  174.62 | Skew=  1.63 | SNR= 61.37
+
+METRICS:
+PSNR=21.12, SSIM=0.6571
+
+
+PATIENT 0068
+========================================
+HF Original               | Mean=  112.68 | Std=  134.98 | Skew=  1.62 | SNR= 50.49
+LF Simulated              | Mean=  112.68 | Std=  122.19 | Skew=  1.74 | SNR= 30.49
+Stage 1: N4               | Mean=  112.68 | Std=  114.48 | Skew=  1.47 | SNR= 28.88
+Stage 2: Standardized     | Mean=  112.68 | Std=  119.07 | Skew=  1.35 | SNR= 30.33
+Stage 3: Wiener           | Mean=  112.68 | Std=  118.33 | Skew=  1.40 | SNR= 38.26
+Stage 4: Resolution Model | Mean=  112.67 | Std=  118.21 | Skew=  1.40 | SNR= 38.35
+Stage 5: Refinement       | Mean=  112.70 | Std=  118.37 | Skew=  1.40 | SNR= 38.31
+Final Enhanced            | Mean=  112.68 | Std=  118.35 | Skew=  1.40 | SNR= 38.31
+
+METRICS:
+PSNR=22.31, SSIM=0.7349
+
+
+PATIENT 0069
+========================================
+HF Original               | Mean=  147.51 | Std=  169.12 | Skew=  1.48 | SNR= 47.14
+LF Simulated              | Mean=  147.51 | Std=  161.82 | Skew=  1.72 | SNR= 29.75
+Stage 1: N4               | Mean=  147.51 | Std=  147.82 | Skew=  1.27 | SNR= 29.49
+Stage 2: Standardized     | Mean=  147.51 | Std=  154.86 | Skew=  1.23 | SNR= 31.07
+Stage 3: Wiener           | Mean=  147.51 | Std=  154.13 | Skew=  1.28 | SNR= 41.91
+Stage 4: Resolution Model | Mean=  147.50 | Std=  154.02 | Skew=  1.28 | SNR= 42.28
+Stage 5: Refinement       | Mean=  147.54 | Std=  154.18 | Skew=  1.28 | SNR= 42.06
+Final Enhanced            | Mean=  147.51 | Std=  154.15 | Skew=  1.28 | SNR= 42.06
+
+METRICS:
+PSNR=21.49, SSIM=0.7240
+
+
+PATIENT 0070
+========================================
+HF Original               | Mean=   76.97 | Std=  106.22 | Skew=  2.09 | SNR= 55.92
+LF Simulated              | Mean=   76.97 | Std=   92.48 | Skew=  2.05 | SNR= 31.90
+Stage 1: N4               | Mean=   76.97 | Std=   88.98 | Skew=  1.88 | SNR= 30.84
+Stage 2: Standardized     | Mean=   76.97 | Std=   91.35 | Skew=  1.61 | SNR= 32.44
+Stage 3: Wiener           | Mean=   76.97 | Std=   90.77 | Skew=  1.64 | SNR= 40.91
+Stage 4: Resolution Model | Mean=   76.96 | Std=   90.69 | Skew=  1.64 | SNR= 41.09
+Stage 5: Refinement       | Mean=   76.99 | Std=   90.82 | Skew=  1.64 | SNR= 41.02
+Final Enhanced            | Mean=   76.97 | Std=   90.79 | Skew=  1.64 | SNR= 41.02
+
+METRICS:
+PSNR=25.27, SSIM=0.7706
+
+
+PATIENT 0071
+========================================
+HF Original               | Mean=  169.53 | Std=  186.96 | Skew=  1.35 | SNR= 54.69
+LF Simulated              | Mean=  169.53 | Std=  172.39 | Skew=  1.63 | SNR= 26.27
+Stage 1: N4               | Mean=  169.53 | Std=  153.16 | Skew=  1.16 | SNR= 24.29
+Stage 2: Standardized     | Mean=  169.53 | Std=  162.10 | Skew=  1.12 | SNR= 25.50
+Stage 3: Wiener           | Mean=  169.53 | Std=  160.12 | Skew=  1.20 | SNR= 36.21
+Stage 4: Resolution Model | Mean=  169.51 | Std=  159.97 | Skew=  1.20 | SNR= 36.63
+Stage 5: Refinement       | Mean=  169.53 | Std=  160.15 | Skew=  1.20 | SNR= 36.36
+Final Enhanced            | Mean=  169.53 | Std=  160.14 | Skew=  1.20 | SNR= 36.36
+
+METRICS:
+PSNR=20.95, SSIM=0.6530
+
+
+PATIENT 0072
+========================================
+HF Original               | Mean=  140.89 | Std=  166.14 | Skew=  1.44 | SNR= 58.14
+LF Simulated              | Mean=  140.89 | Std=  157.30 | Skew=  1.58 | SNR= 36.31
+Stage 1: N4               | Mean=  140.89 | Std=  149.91 | Skew=  1.34 | SNR= 35.32
+Stage 2: Standardized     | Mean=  140.89 | Std=  155.13 | Skew=  1.27 | SNR= 37.28
+Stage 3: Wiener           | Mean=  140.89 | Std=  154.65 | Skew=  1.30 | SNR= 49.43
+Stage 4: Resolution Model | Mean=  140.88 | Std=  154.53 | Skew=  1.30 | SNR= 49.68
+Stage 5: Refinement       | Mean=  140.94 | Std=  154.70 | Skew=  1.30 | SNR= 49.59
+Final Enhanced            | Mean=  140.89 | Std=  154.66 | Skew=  1.30 | SNR= 49.59
+
+METRICS:
+PSNR=22.64, SSIM=0.7649
+
+
+PATIENT 0074
+========================================
+HF Original               | Mean=  151.22 | Std=  182.53 | Skew=  1.42 | SNR= 70.65
+LF Simulated              | Mean=  151.22 | Std=  179.93 | Skew=  1.67 | SNR= 41.76
+Stage 1: N4               | Mean=  151.22 | Std=  181.54 | Skew=  1.57 | SNR= 47.35
+Stage 2: Standardized     | Mean=  151.22 | Std=  186.46 | Skew=  1.54 | SNR= 50.26
+Stage 3: Wiener           | Mean=  133.82 | Std=  165.65 | Skew=  1.57 | SNR= 79.83
+Stage 4: Resolution Model | Mean=  133.80 | Std=  165.55 | Skew=  1.57 | SNR= 80.83
+Stage 5: Refinement       | Mean=  133.88 | Std=  165.70 | Skew=  1.57 | SNR= 80.37
+Final Enhanced            | Mean=  151.22 | Std=  187.16 | Skew=  1.57 | SNR= 80.37
+
+METRICS:
+PSNR=23.69, SSIM=0.7873
+
+
+PATIENT 0075
+========================================
+HF Original               | Mean=  112.82 | Std=  131.74 | Skew=  1.41 | SNR= 62.75
+LF Simulated              | Mean=  112.82 | Std=  116.97 | Skew=  1.55 | SNR= 30.56
+Stage 1: N4               | Mean=  112.82 | Std=  110.11 | Skew=  1.29 | SNR= 29.15
+Stage 2: Standardized     | Mean=  112.82 | Std=  113.73 | Skew=  1.13 | SNR= 30.43
+Stage 3: Wiener           | Mean=  112.82 | Std=  112.82 | Skew=  1.18 | SNR= 37.24
+Stage 4: Resolution Model | Mean=  112.80 | Std=  112.70 | Skew=  1.17 | SNR= 37.26
+Stage 5: Refinement       | Mean=  112.83 | Std=  112.84 | Skew=  1.18 | SNR= 37.24
+Final Enhanced            | Mean=  112.82 | Std=  112.83 | Skew=  1.18 | SNR= 37.24
+
+METRICS:
+PSNR=22.90, SSIM=0.6964
+
+
+PATIENT 0078
+========================================
+HF Original               | Mean=  202.82 | Std=  281.47 | Skew=  1.86 | SNR= 97.97
+LF Simulated              | Mean=  202.82 | Std=  267.51 | Skew=  2.07 | SNR= 53.99
+Stage 1: N4               | Mean=  202.82 | Std=  250.26 | Skew=  1.65 | SNR= 54.23
+Stage 2: Standardized     | Mean=  202.82 | Std=  254.01 | Skew=  1.56 | SNR= 57.61
+Stage 3: Wiener           | Mean=  202.82 | Std=  252.64 | Skew=  1.55 | SNR= 77.77
+Stage 4: Resolution Model | Mean=  202.79 | Std=  252.38 | Skew=  1.55 | SNR= 78.20
+Stage 5: Refinement       | Mean=  202.95 | Std=  252.76 | Skew=  1.55 | SNR= 77.99
+Final Enhanced            | Mean=  202.82 | Std=  252.60 | Skew=  1.55 | SNR= 77.99
+
+METRICS:
+PSNR=23.61, SSIM=0.7690
+
+
+PATIENT 0080
+========================================
+HF Original               | Mean=  151.03 | Std=  169.55 | Skew=  1.24 | SNR= 61.82
+LF Simulated              | Mean=  151.03 | Std=  163.26 | Skew=  1.44 | SNR= 34.65
+Stage 1: N4               | Mean=  151.03 | Std=  152.58 | Skew=  1.18 | SNR= 32.90
+Stage 2: Standardized     | Mean=  151.03 | Std=  158.52 | Skew=  1.13 | SNR= 34.64
+Stage 3: Wiener           | Mean=  151.03 | Std=  158.54 | Skew=  1.17 | SNR= 50.06
+Stage 4: Resolution Model | Mean=  151.02 | Std=  158.41 | Skew=  1.17 | SNR= 50.55
+Stage 5: Refinement       | Mean=  151.06 | Std=  158.58 | Skew=  1.17 | SNR= 50.22
+Final Enhanced            | Mean=  151.03 | Std=  158.55 | Skew=  1.17 | SNR= 50.22
+
+METRICS:
+PSNR=22.63, SSIM=0.7353
+
+
+PATIENT 0081
+========================================
+HF Original               | Mean=   95.64 | Std=  120.55 | Skew=  1.74 | SNR= 71.04
+LF Simulated              | Mean=   95.64 | Std=  108.53 | Skew=  1.71 | SNR= 37.61
+Stage 1: N4               | Mean=   95.64 | Std=  101.65 | Skew=  1.40 | SNR= 34.70
+Stage 2: Standardized     | Mean=   95.64 | Std=  104.30 | Skew=  1.24 | SNR= 36.52
+Stage 3: Wiener           | Mean=   95.64 | Std=  104.49 | Skew=  1.27 | SNR= 51.47
+Stage 4: Resolution Model | Mean=   95.63 | Std=  104.38 | Skew=  1.27 | SNR= 51.91
+Stage 5: Refinement       | Mean=   95.66 | Std=  104.51 | Skew=  1.27 | SNR= 51.67
+Final Enhanced            | Mean=   95.64 | Std=  104.50 | Skew=  1.27 | SNR= 51.67
+
+METRICS:
+PSNR=23.21, SSIM=0.7750
+
+
+PATIENT 0082
+========================================
+HF Original               | Mean=  165.46 | Std=  258.48 | Skew=  2.66 | SNR=126.04
+LF Simulated              | Mean=  165.46 | Std=  239.99 | Skew=  2.52 | SNR= 68.19
+Stage 1: N4               | Mean=  165.46 | Std=  229.04 | Skew=  2.08 | SNR= 66.96
+Stage 2: Standardized     | Mean=  165.46 | Std=  223.10 | Skew=  1.58 | SNR= 70.40
+Stage 3: Wiener           | Mean=  165.46 | Std=  218.79 | Skew=  1.51 | SNR= 99.03
+Stage 4: Resolution Model | Mean=  165.44 | Std=  218.53 | Skew=  1.50 | SNR=100.03
+Stage 5: Refinement       | Mean=  165.55 | Std=  218.90 | Skew=  1.51 | SNR= 99.64
+Final Enhanced            | Mean=  165.46 | Std=  218.77 | Skew=  1.51 | SNR= 99.64
+
+METRICS:
+PSNR=28.52, SSIM=0.7983
+
+
+PATIENT 0083
+========================================
+HF Original               | Mean=  120.49 | Std=  150.51 | Skew=  1.59 | SNR= 55.09
+LF Simulated              | Mean=  120.49 | Std=  143.70 | Skew=  1.86 | SNR= 35.52
+Stage 1: N4               | Mean=  120.49 | Std=  137.80 | Skew=  1.66 | SNR= 35.40
+Stage 2: Standardized     | Mean=  120.49 | Std=  141.21 | Skew=  1.48 | SNR= 37.28
+Stage 3: Wiener           | Mean=  120.49 | Std=  141.44 | Skew=  1.53 | SNR= 48.90
+Stage 4: Resolution Model | Mean=  120.47 | Std=  141.33 | Skew=  1.53 | SNR= 49.20
+Stage 5: Refinement       | Mean=  120.50 | Std=  141.48 | Skew=  1.53 | SNR= 49.06
+Final Enhanced            | Mean=  120.49 | Std=  141.47 | Skew=  1.53 | SNR= 49.06
+
+METRICS:
+PSNR=22.74, SSIM=0.7278
+
+
+PATIENT 0084
+========================================
+HF Original               | Mean=   45.63 | Std=   58.28 | Skew=  2.05 | SNR= 70.80
+LF Simulated              | Mean=   45.63 | Std=   57.96 | Skew=  2.20 | SNR= 38.24
+Stage 1: N4               | Mean=   45.63 | Std=   54.79 | Skew=  1.93 | SNR= 36.81
+Stage 2: Standardized     | Mean=   45.63 | Std=   55.45 | Skew=  1.64 | SNR= 38.75
+Stage 3: Wiener           | Mean=   45.63 | Std=   55.11 | Skew=  1.66 | SNR= 51.60
+Stage 4: Resolution Model | Mean=   45.62 | Std=   55.07 | Skew=  1.66 | SNR= 51.99
+Stage 5: Refinement       | Mean=   45.64 | Std=   55.12 | Skew=  1.66 | SNR= 51.83
+Final Enhanced            | Mean=   45.63 | Std=   55.12 | Skew=  1.66 | SNR= 51.83
+
+METRICS:
+PSNR=28.63, SSIM=0.7092
+
+
+PATIENT 0085
+========================================
+HF Original               | Mean=   80.02 | Std=  105.82 | Skew=  1.95 | SNR= 64.00
+LF Simulated              | Mean=   80.02 | Std=  101.79 | Skew=  2.05 | SNR= 42.04
+Stage 1: N4               | Mean=   80.02 | Std=   98.61 | Skew=  2.02 | SNR= 40.67
+Stage 2: Standardized     | Mean=   80.02 | Std=   97.49 | Skew=  1.49 | SNR= 42.44
+Stage 3: Wiener           | Mean=   80.02 | Std=   97.17 | Skew=  1.50 | SNR= 58.17
+Stage 4: Resolution Model | Mean=   80.01 | Std=   97.08 | Skew=  1.50 | SNR= 58.79
+Stage 5: Refinement       | Mean=   80.03 | Std=   97.19 | Skew=  1.50 | SNR= 58.39
+Final Enhanced            | Mean=   80.02 | Std=   97.18 | Skew=  1.50 | SNR= 58.39
+
+METRICS:
+PSNR=24.77, SSIM=0.8034
+
+
+PATIENT 0086
+========================================
+HF Original               | Mean=  109.97 | Std=  140.17 | Skew=  1.83 | SNR= 56.48
+LF Simulated              | Mean=  109.97 | Std=  132.11 | Skew=  1.97 | SNR= 35.33
+Stage 1: N4               | Mean=  109.97 | Std=  125.61 | Skew=  1.74 | SNR= 33.78
+Stage 2: Standardized     | Mean=  109.97 | Std=  129.00 | Skew=  1.57 | SNR= 35.50
+Stage 3: Wiener           | Mean=  109.97 | Std=  128.60 | Skew=  1.60 | SNR= 44.70
+Stage 4: Resolution Model | Mean=  109.95 | Std=  128.48 | Skew=  1.60 | SNR= 44.80
+Stage 5: Refinement       | Mean=  109.98 | Std=  128.65 | Skew=  1.60 | SNR= 44.79
+Final Enhanced            | Mean=  109.97 | Std=  128.63 | Skew=  1.60 | SNR= 44.79
+
+METRICS:
+PSNR=23.37, SSIM=0.7702
+
+
+PATIENT 0087
+========================================
+HF Original               | Mean=   84.12 | Std=  109.48 | Skew=  1.70 | SNR= 92.05
+LF Simulated              | Mean=   84.12 | Std=  103.68 | Skew=  1.70 | SNR= 48.97
+Stage 1: N4               | Mean=   84.12 | Std=  100.78 | Skew=  1.62 | SNR= 49.06
+Stage 2: Standardized     | Mean=   84.12 | Std=  100.69 | Skew=  1.33 | SNR= 51.38
+Stage 3: Wiener           | Mean=   84.12 | Std=  100.26 | Skew=  1.32 | SNR= 82.80
+Stage 4: Resolution Model | Mean=   84.11 | Std=  100.16 | Skew=  1.32 | SNR= 84.56
+Stage 5: Refinement       | Mean=   84.16 | Std=  100.30 | Skew=  1.32 | SNR= 83.73
+Final Enhanced            | Mean=   84.12 | Std=  100.25 | Skew=  1.32 | SNR= 83.73
+
+METRICS:
+PSNR=23.33, SSIM=0.7426
+
+
+PATIENT 0088
+========================================
+HF Original               | Mean=   72.40 | Std=  100.59 | Skew=  2.06 | SNR= 76.67
+LF Simulated              | Mean=   72.40 | Std=   90.79 | Skew=  2.07 | SNR= 38.31
+Stage 1: N4               | Mean=   72.40 | Std=   87.82 | Skew=  2.02 | SNR= 36.80
+Stage 2: Standardized     | Mean=   72.40 | Std=   87.72 | Skew=  1.53 | SNR= 38.54
+Stage 3: Wiener           | Mean=   72.40 | Std=   87.42 | Skew=  1.56 | SNR= 56.34
+Stage 4: Resolution Model | Mean=   72.39 | Std=   87.34 | Skew=  1.55 | SNR= 57.10
+Stage 5: Refinement       | Mean=   72.41 | Std=   87.44 | Skew=  1.56 | SNR= 56.60
+Final Enhanced            | Mean=   72.40 | Std=   87.43 | Skew=  1.56 | SNR= 56.60
+
+METRICS:
+PSNR=24.80, SSIM=0.7853
+
+
+PATIENT 0089
+========================================
+HF Original               | Mean=   86.50 | Std=  114.12 | Skew=  2.03 | SNR= 53.69
+LF Simulated              | Mean=   86.50 | Std=   98.78 | Skew=  2.10 | SNR= 28.72
+Stage 1: N4               | Mean=   86.50 | Std=   92.29 | Skew=  1.84 | SNR= 27.41
+Stage 2: Standardized     | Mean=   86.50 | Std=   94.41 | Skew=  1.49 | SNR= 28.53
+Stage 3: Wiener           | Mean=   86.50 | Std=   93.43 | Skew=  1.55 | SNR= 33.22
+Stage 4: Resolution Model | Mean=   86.49 | Std=   93.34 | Skew=  1.55 | SNR= 33.19
+Stage 5: Refinement       | Mean=   86.51 | Std=   93.46 | Skew=  1.55 | SNR= 33.22
+Final Enhanced            | Mean=   86.50 | Std=   93.45 | Skew=  1.55 | SNR= 33.22
+
+METRICS:
+PSNR=23.66, SSIM=0.7226
+
+
+PATIENT 0090
+========================================
+HF Original               | Mean=   51.09 | Std=   61.95 | Skew=  2.06 | SNR= 68.36
+LF Simulated              | Mean=   51.09 | Std=   59.43 | Skew=  2.11 | SNR= 35.48
+Stage 1: N4               | Mean=   51.09 | Std=   56.75 | Skew=  2.00 | SNR= 33.63
+Stage 2: Standardized     | Mean=   51.09 | Std=   55.38 | Skew=  1.33 | SNR= 34.60
+Stage 3: Wiener           | Mean=   51.09 | Std=   55.13 | Skew=  1.35 | SNR= 47.83
+Stage 4: Resolution Model | Mean=   51.08 | Std=   55.08 | Skew=  1.35 | SNR= 48.28
+Stage 5: Refinement       | Mean=   51.09 | Std=   55.14 | Skew=  1.35 | SNR= 48.03
+Final Enhanced            | Mean=   51.09 | Std=   55.13 | Skew=  1.35 | SNR= 48.03
+
+METRICS:
+PSNR=26.08, SSIM=0.7115
+
+
+PATIENT 0091
+========================================
+HF Original               | Mean=  163.52 | Std=  178.15 | Skew=  1.05 | SNR= 70.01
+LF Simulated              | Mean=  163.52 | Std=  186.28 | Skew=  1.44 | SNR= 41.17
+Stage 1: N4               | Mean=  163.52 | Std=  177.59 | Skew=  1.20 | SNR= 41.08
+Stage 2: Standardized     | Mean=  163.52 | Std=  183.25 | Skew=  1.15 | SNR= 43.70
+Stage 3: Wiener           | Mean=  163.52 | Std=  183.51 | Skew=  1.18 | SNR= 57.60
+Stage 4: Resolution Model | Mean=  163.49 | Std=  183.35 | Skew=  1.18 | SNR= 57.90
+Stage 5: Refinement       | Mean=  163.55 | Std=  183.53 | Skew=  1.18 | SNR= 57.75
+Final Enhanced            | Mean=  163.52 | Std=  183.49 | Skew=  1.18 | SNR= 57.75
+
+METRICS:
+PSNR=21.00, SSIM=0.6387
+
+
+PATIENT 0092
+========================================
+HF Original               | Mean=  144.92 | Std=  184.37 | Skew=  1.44 | SNR= 92.20
+LF Simulated              | Mean=  144.92 | Std=  183.02 | Skew=  1.65 | SNR= 54.32
+Stage 1: N4               | Mean=  144.92 | Std=  181.45 | Skew=  1.54 | SNR= 58.37
+Stage 2: Standardized     | Mean=  144.92 | Std=  184.39 | Skew=  1.46 | SNR= 62.37
+Stage 3: Wiener           | Mean=  144.92 | Std=  183.53 | Skew=  1.46 | SNR= 90.30
+Stage 4: Resolution Model | Mean=  144.91 | Std=  183.41 | Skew=  1.46 | SNR= 91.31
+Stage 5: Refinement       | Mean=  144.99 | Std=  183.61 | Skew=  1.46 | SNR= 90.87
+Final Enhanced            | Mean=  144.92 | Std=  183.52 | Skew=  1.46 | SNR= 90.87
+
+METRICS:
+PSNR=23.04, SSIM=0.8290
+
+
+PATIENT 0093
+========================================
+HF Original               | Mean=  233.96 | Std=  221.24 | Skew=  0.82 | SNR= 53.15
+LF Simulated              | Mean=  233.96 | Std=  220.88 | Skew=  1.19 | SNR= 27.80
+Stage 1: N4               | Mean=  233.96 | Std=  193.74 | Skew=  0.74 | SNR= 25.19
+Stage 2: Standardized     | Mean=  233.96 | Std=  202.23 | Skew=  0.69 | SNR= 26.06
+Stage 3: Wiener           | Mean=  233.96 | Std=  201.42 | Skew=  0.74 | SNR= 38.86
+Stage 4: Resolution Model | Mean=  233.92 | Std=  201.25 | Skew=  0.74 | SNR= 39.33
+Stage 5: Refinement       | Mean=  233.97 | Std=  201.46 | Skew=  0.74 | SNR= 39.10
+Final Enhanced            | Mean=  233.96 | Std=  201.45 | Skew=  0.74 | SNR= 39.10
+
+METRICS:
+PSNR=19.89, SSIM=0.6074
+
+
+PATIENT 0094
+========================================
+HF Original               | Mean=   67.07 | Std=   90.65 | Skew=  2.20 | SNR= 49.17
+LF Simulated              | Mean=   67.07 | Std=   79.99 | Skew=  2.05 | SNR= 32.72
+Stage 1: N4               | Mean=   67.07 | Std=   77.43 | Skew=  2.00 | SNR= 31.51
+Stage 2: Standardized     | Mean=   67.07 | Std=   78.08 | Skew=  1.55 | SNR= 32.91
+Stage 3: Wiener           | Mean=   67.07 | Std=   77.81 | Skew=  1.58 | SNR= 47.29
+Stage 4: Resolution Model | Mean=   67.06 | Std=   77.74 | Skew=  1.58 | SNR= 47.87
+Stage 5: Refinement       | Mean=   67.08 | Std=   77.84 | Skew=  1.58 | SNR= 47.55
+Final Enhanced            | Mean=   67.07 | Std=   77.83 | Skew=  1.58 | SNR= 47.55
+
+METRICS:
+PSNR=25.01, SSIM=0.7918
+
+
+PATIENT 0095
+========================================
+HF Original               | Mean=   91.10 | Std=  133.29 | Skew=  2.24 | SNR= 71.85
+LF Simulated              | Mean=   91.10 | Std=  120.74 | Skew=  2.27 | SNR= 40.18
+Stage 1: N4               | Mean=   91.10 | Std=  117.65 | Skew=  2.20 | SNR= 39.69
+Stage 2: Standardized     | Mean=   91.10 | Std=  118.44 | Skew=  1.86 | SNR= 41.70
+Stage 3: Wiener           | Mean=   91.10 | Std=  117.74 | Skew=  1.86 | SNR= 55.80
+Stage 4: Resolution Model | Mean=   91.10 | Std=  117.63 | Skew=  1.86 | SNR= 56.18
+Stage 5: Refinement       | Mean=   91.14 | Std=  117.81 | Skew=  1.86 | SNR= 56.04
+Final Enhanced            | Mean=   91.10 | Std=  117.77 | Skew=  1.86 | SNR= 56.04
+
+METRICS:
+PSNR=23.86, SSIM=0.8108
+
+
+PATIENT 0096
+========================================
+HF Original               | Mean=  131.45 | Std=  149.57 | Skew=  1.53 | SNR= 47.93
+LF Simulated              | Mean=  131.45 | Std=  130.09 | Skew=  1.62 | SNR= 24.54
+Stage 1: N4               | Mean=  131.45 | Std=  119.46 | Skew=  1.38 | SNR= 22.59
+Stage 2: Standardized     | Mean=  131.45 | Std=  124.89 | Skew=  1.19 | SNR= 23.46
+Stage 3: Wiener           | Mean=  131.45 | Std=  123.54 | Skew=  1.29 | SNR= 35.52
+Stage 4: Resolution Model | Mean=  131.44 | Std=  123.40 | Skew=  1.29 | SNR= 36.08
+Stage 5: Refinement       | Mean=  131.45 | Std=  123.57 | Skew=  1.29 | SNR= 35.75
+Final Enhanced            | Mean=  131.45 | Std=  123.57 | Skew=  1.29 | SNR= 35.75
+
+METRICS:
+PSNR=24.13, SSIM=0.7234
+
+
+PATIENT 0097
+========================================
+HF Original               | Mean=  136.91 | Std=  152.15 | Skew=  1.37 | SNR= 47.84
+LF Simulated              | Mean=  136.91 | Std=  146.86 | Skew=  1.67 | SNR= 29.62
+Stage 1: N4               | Mean=  136.91 | Std=  135.32 | Skew=  1.31 | SNR= 28.49
+Stage 2: Standardized     | Mean=  136.91 | Std=  141.64 | Skew=  1.25 | SNR= 29.94
+Stage 3: Wiener           | Mean=  136.91 | Std=  141.74 | Skew=  1.31 | SNR= 40.03
+Stage 4: Resolution Model | Mean=  136.89 | Std=  141.61 | Skew=  1.31 | SNR= 40.27
+Stage 5: Refinement       | Mean=  136.91 | Std=  141.77 | Skew=  1.31 | SNR= 40.15
+Final Enhanced            | Mean=  136.91 | Std=  141.77 | Skew=  1.31 | SNR= 40.15
+
+METRICS:
+PSNR=22.68, SSIM=0.6999
+
+
+PATIENT 0098
+========================================
+HF Original               | Mean=  116.75 | Std=  148.76 | Skew=  1.59 | SNR= 81.10
+LF Simulated              | Mean=  116.75 | Std=  147.77 | Skew=  1.79 | SNR= 50.32
+Stage 1: N4               | Mean=  116.75 | Std=  144.61 | Skew=  1.65 | SNR= 51.45
+Stage 2: Standardized     | Mean=  116.75 | Std=  147.46 | Skew=  1.55 | SNR= 54.95
+Stage 3: Wiener           | Mean=  116.75 | Std=  147.14 | Skew=  1.56 | SNR= 75.81
+Stage 4: Resolution Model | Mean=  116.73 | Std=  147.04 | Skew=  1.56 | SNR= 76.50
+Stage 5: Refinement       | Mean=  116.77 | Std=  147.20 | Skew=  1.56 | SNR= 76.13
+Final Enhanced            | Mean=  116.75 | Std=  147.17 | Skew=  1.56 | SNR= 76.13
+
+METRICS:
+PSNR=24.84, SSIM=0.8151
+
+
+PATIENT 0099
+========================================
+HF Original               | Mean=  120.41 | Std=  132.24 | Skew=  1.50 | SNR= 40.35
+LF Simulated              | Mean=  120.41 | Std=  111.83 | Skew=  1.63 | SNR= 21.37
+Stage 1: N4               | Mean=  120.41 | Std=  101.65 | Skew=  1.31 | SNR= 19.47
+Stage 2: Standardized     | Mean=  120.41 | Std=  107.89 | Skew=  1.18 | SNR= 20.17
+Stage 3: Wiener           | Mean=  120.41 | Std=  104.83 | Skew=  1.31 | SNR= 25.06
+Stage 4: Resolution Model | Mean=  120.40 | Std=  104.67 | Skew=  1.31 | SNR= 25.21
+Stage 5: Refinement       | Mean=  120.42 | Std=  104.83 | Skew=  1.31 | SNR= 25.11
+Final Enhanced            | Mean=  120.41 | Std=  104.82 | Skew=  1.31 | SNR= 25.11
+
+METRICS:
+PSNR=22.49, SSIM=0.6365
+
+
+PATIENT 0100
+========================================
+HF Original               | Mean=  110.06 | Std=  136.00 | Skew=  1.66 | SNR= 68.41
+LF Simulated              | Mean=  110.06 | Std=  126.88 | Skew=  1.71 | SNR= 38.88
+Stage 1: N4               | Mean=  110.06 | Std=  118.81 | Skew=  1.41 | SNR= 35.56
+Stage 2: Standardized     | Mean=  110.06 | Std=  122.13 | Skew=  1.27 | SNR= 37.49
+Stage 3: Wiener           | Mean=  110.06 | Std=  120.96 | Skew=  1.27 | SNR= 49.97
+Stage 4: Resolution Model | Mean=  110.05 | Std=  120.85 | Skew=  1.27 | SNR= 50.37
+Stage 5: Refinement       | Mean=  110.09 | Std=  121.01 | Skew=  1.27 | SNR= 50.16
+Final Enhanced            | Mean=  110.06 | Std=  120.98 | Skew=  1.27 | SNR= 50.16
+
+METRICS:
+PSNR=22.96, SSIM=0.7685
+
+
+PATIENT 0101
+========================================
+HF Original               | Mean=  113.29 | Std=  136.28 | Skew=  1.57 | SNR= 52.10
+LF Simulated              | Mean=  113.29 | Std=  123.48 | Skew=  1.76 | SNR= 28.88
+Stage 1: N4               | Mean=  113.29 | Std=  115.86 | Skew=  1.56 | SNR= 27.19
+Stage 2: Standardized     | Mean=  113.29 | Std=  120.64 | Skew=  1.40 | SNR= 28.55
+Stage 3: Wiener           | Mean=  113.29 | Std=  120.17 | Skew=  1.48 | SNR= 36.10
+Stage 4: Resolution Model | Mean=  113.27 | Std=  120.04 | Skew=  1.48 | SNR= 36.22
+Stage 5: Refinement       | Mean=  113.29 | Std=  120.19 | Skew=  1.48 | SNR= 36.15
+Final Enhanced            | Mean=  113.29 | Std=  120.19 | Skew=  1.48 | SNR= 36.15
+
+METRICS:
+PSNR=22.94, SSIM=0.7048
+
+
+PATIENT 0103
+========================================
+HF Original               | Mean=  130.96 | Std=  151.20 | Skew=  1.48 | SNR= 54.24
+LF Simulated              | Mean=  130.96 | Std=  135.80 | Skew=  1.63 | SNR= 28.59
+Stage 1: N4               | Mean=  130.96 | Std=  127.38 | Skew=  1.37 | SNR= 27.15
+Stage 2: Standardized     | Mean=  130.96 | Std=  133.08 | Skew=  1.27 | SNR= 28.46
+Stage 3: Wiener           | Mean=  130.96 | Std=  132.70 | Skew=  1.34 | SNR= 37.93
+Stage 4: Resolution Model | Mean=  130.94 | Std=  132.57 | Skew=  1.34 | SNR= 38.10
+Stage 5: Refinement       | Mean=  130.99 | Std=  132.75 | Skew=  1.34 | SNR= 37.97
+Final Enhanced            | Mean=  130.96 | Std=  132.72 | Skew=  1.34 | SNR= 37.97
+
+METRICS:
+PSNR=22.66, SSIM=0.7395
+
+
+PATIENT 0104
+========================================
+HF Original               | Mean=  142.55 | Std=  167.99 | Skew=  1.41 | SNR= 56.09
+LF Simulated              | Mean=  142.55 | Std=  145.74 | Skew=  1.52 | SNR= 27.04
+Stage 1: N4               | Mean=  142.55 | Std=  134.15 | Skew=  1.25 | SNR= 25.12
+Stage 2: Standardized     | Mean=  142.55 | Std=  141.31 | Skew=  1.17 | SNR= 26.35
+Stage 3: Wiener           | Mean=  142.55 | Std=  140.12 | Skew=  1.25 | SNR= 38.32
+Stage 4: Resolution Model | Mean=  142.54 | Std=  139.99 | Skew=  1.26 | SNR= 38.81
+Stage 5: Refinement       | Mean=  142.55 | Std=  140.12 | Skew=  1.26 | SNR= 38.54
+Final Enhanced            | Mean=  142.55 | Std=  140.12 | Skew=  1.26 | SNR= 38.54
+
+METRICS:
+PSNR=25.85, SSIM=0.6948
+
+
+PATIENT 0105
+========================================
+HF Original               | Mean=  204.32 | Std=  223.24 | Skew=  1.05 | SNR= 70.82
+LF Simulated              | Mean=  204.32 | Std=  219.35 | Skew=  1.32 | SNR= 35.00
+Stage 1: N4               | Mean=  204.32 | Std=  221.24 | Skew=  1.22 | SNR= 40.52
+Stage 2: Standardized     | Mean=  204.32 | Std=  228.49 | Skew=  1.19 | SNR= 42.95
+Stage 3: Wiener           | Mean=  200.54 | Std=  224.65 | Skew=  1.22 | SNR= 72.15
+Stage 4: Resolution Model | Mean=  200.52 | Std=  224.55 | Skew=  1.22 | SNR= 73.73
+Stage 5: Refinement       | Mean=  200.57 | Std=  224.71 | Skew=  1.22 | SNR= 72.74
+Final Enhanced            | Mean=  204.32 | Std=  228.91 | Skew=  1.22 | SNR= 72.74
+
+METRICS:
+PSNR=21.34, SSIM=0.7295
+
+
+PATIENT 0106
+========================================
+HF Original               | Mean=   90.16 | Std=  125.00 | Skew=  1.92 | SNR= 94.51
+LF Simulated              | Mean=   90.16 | Std=  124.54 | Skew=  2.07 | SNR= 59.84
+Stage 1: N4               | Mean=   90.16 | Std=  120.70 | Skew=  1.93 | SNR= 58.33
+Stage 2: Standardized     | Mean=   90.16 | Std=  119.95 | Skew=  1.63 | SNR= 61.66
+Stage 3: Wiener           | Mean=   90.16 | Std=  118.78 | Skew=  1.60 | SNR= 83.67
+Stage 4: Resolution Model | Mean=   90.15 | Std=  118.69 | Skew=  1.60 | SNR= 84.50
+Stage 5: Refinement       | Mean=   90.18 | Std=  118.83 | Skew=  1.60 | SNR= 84.17
+Final Enhanced            | Mean=   90.16 | Std=  118.80 | Skew=  1.60 | SNR= 84.17
+
+METRICS:
+PSNR=25.33, SSIM=0.7904
+
+
+PATIENT 0108
+========================================
+HF Original               | Mean=   96.88 | Std=  126.95 | Skew=  1.74 | SNR= 88.89
+LF Simulated              | Mean=   96.88 | Std=  120.58 | Skew=  1.77 | SNR= 51.24
+Stage 1: N4               | Mean=   96.88 | Std=  115.74 | Skew=  1.61 | SNR= 49.46
+Stage 2: Standardized     | Mean=   96.88 | Std=  116.14 | Skew=  1.37 | SNR= 52.10
+Stage 3: Wiener           | Mean=   96.88 | Std=  115.62 | Skew=  1.37 | SNR= 70.29
+Stage 4: Resolution Model | Mean=   96.87 | Std=  115.50 | Skew=  1.36 | SNR= 70.78
+Stage 5: Refinement       | Mean=   96.91 | Std=  115.65 | Skew=  1.37 | SNR= 70.54
+Final Enhanced            | Mean=   96.88 | Std=  115.61 | Skew=  1.37 | SNR= 70.54
+
+METRICS:
+PSNR=23.66, SSIM=0.7913
+
+
+PATIENT 0109
+========================================
+HF Original               | Mean=  158.25 | Std=  174.61 | Skew=  1.21 | SNR= 65.99
+LF Simulated              | Mean=  158.25 | Std=  169.52 | Skew=  1.44 | SNR= 34.93
+Stage 1: N4               | Mean=  158.25 | Std=  160.66 | Skew=  1.16 | SNR= 34.71
+Stage 2: Standardized     | Mean=  158.25 | Std=  166.59 | Skew=  1.12 | SNR= 36.56
+Stage 3: Wiener           | Mean=  158.25 | Std=  166.60 | Skew=  1.16 | SNR= 52.88
+Stage 4: Resolution Model | Mean=  158.23 | Std=  166.47 | Skew=  1.16 | SNR= 53.38
+Stage 5: Refinement       | Mean=  158.28 | Std=  166.64 | Skew=  1.16 | SNR= 53.02
+Final Enhanced            | Mean=  158.25 | Std=  166.61 | Skew=  1.16 | SNR= 53.02
+
+METRICS:
+PSNR=22.07, SSIM=0.7511
+
+
+PATIENT 0112
+========================================
+HF Original               | Mean=  120.37 | Std=  147.86 | Skew=  1.47 | SNR= 66.47
+LF Simulated              | Mean=  120.37 | Std=  135.65 | Skew=  1.65 | SNR= 34.92
+Stage 1: N4               | Mean=  120.37 | Std=  126.79 | Skew=  1.42 | SNR= 33.76
+Stage 2: Standardized     | Mean=  120.37 | Std=  130.40 | Skew=  1.28 | SNR= 35.40
+Stage 3: Wiener           | Mean=  120.37 | Std=  129.81 | Skew=  1.32 | SNR= 48.49
+Stage 4: Resolution Model | Mean=  120.35 | Std=  129.69 | Skew=  1.32 | SNR= 48.86
+Stage 5: Refinement       | Mean=  120.38 | Std=  129.85 | Skew=  1.32 | SNR= 48.70
+Final Enhanced            | Mean=  120.37 | Std=  129.83 | Skew=  1.32 | SNR= 48.70
+
+METRICS:
+PSNR=22.55, SSIM=0.6874
+
+
+
+FINAL SUMMARY
+========================================
+0061 | SNR=76.41 | PSNR=22.35 | SSIM=0.7913
+0062 | SNR=29.68 | PSNR=21.24 | SSIM=0.6342
+0063 | SNR=39.58 | PSNR=23.17 | SSIM=0.7563
+0064 | SNR=80.02 | PSNR=20.72 | SSIM=0.7310
+0067 | SNR=61.37 | PSNR=21.12 | SSIM=0.6571
+0068 | SNR=38.31 | PSNR=22.31 | SSIM=0.7349
+0069 | SNR=42.06 | PSNR=21.49 | SSIM=0.7240
+0070 | SNR=41.02 | PSNR=25.27 | SSIM=0.7706
+0071 | SNR=36.36 | PSNR=20.95 | SSIM=0.6530
+0072 | SNR=49.59 | PSNR=22.64 | SSIM=0.7649
+0074 | SNR=80.37 | PSNR=23.69 | SSIM=0.7873
+0075 | SNR=37.24 | PSNR=22.90 | SSIM=0.6964
+0078 | SNR=77.99 | PSNR=23.61 | SSIM=0.7690
+0080 | SNR=50.22 | PSNR=22.63 | SSIM=0.7353
+0081 | SNR=51.67 | PSNR=23.21 | SSIM=0.7750
+0082 | SNR=99.64 | PSNR=28.52 | SSIM=0.7983
+0083 | SNR=49.06 | PSNR=22.74 | SSIM=0.7278
+0084 | SNR=51.83 | PSNR=28.63 | SSIM=0.7092
+0085 | SNR=58.39 | PSNR=24.77 | SSIM=0.8034
+0086 | SNR=44.79 | PSNR=23.37 | SSIM=0.7702
+0087 | SNR=83.73 | PSNR=23.33 | SSIM=0.7426
+0088 | SNR=56.60 | PSNR=24.80 | SSIM=0.7853
+0089 | SNR=33.22 | PSNR=23.66 | SSIM=0.7226
+0090 | SNR=48.03 | PSNR=26.08 | SSIM=0.7115
+0091 | SNR=57.75 | PSNR=21.00 | SSIM=0.6387
+0092 | SNR=90.87 | PSNR=23.04 | SSIM=0.8290
+0093 | SNR=39.10 | PSNR=19.89 | SSIM=0.6074
+0094 | SNR=47.55 | PSNR=25.01 | SSIM=0.7918
+0095 | SNR=56.04 | PSNR=23.86 | SSIM=0.8108
+0096 | SNR=35.75 | PSNR=24.13 | SSIM=0.7234
+0097 | SNR=40.15 | PSNR=22.68 | SSIM=0.6999
+0098 | SNR=76.13 | PSNR=24.84 | SSIM=0.8151
+0099 | SNR=25.11 | PSNR=22.49 | SSIM=0.6365
+0100 | SNR=50.16 | PSNR=22.96 | SSIM=0.7685
+0101 | SNR=36.15 | PSNR=22.94 | SSIM=0.7048
+0103 | SNR=37.97 | PSNR=22.66 | SSIM=0.7395
+0104 | SNR=38.54 | PSNR=25.85 | SSIM=0.6948
+0105 | SNR=72.74 | PSNR=21.34 | SSIM=0.7295
+0106 | SNR=84.17 | PSNR=25.33 | SSIM=0.7904
+0108 | SNR=70.54 | PSNR=23.66 | SSIM=0.7913
+0109 | SNR=53.02 | PSNR=22.07 | SSIM=0.7511
+0112 | SNR=48.70 | PSNR=22.55 | SSIM=0.6874
