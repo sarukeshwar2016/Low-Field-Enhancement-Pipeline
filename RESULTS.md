@@ -46,3 +46,5 @@ All 86 patients satisfy:
 | final_batch_report.txt  | Per-stage statistics (Mean, Std, Skew, SNR)    |
 
 Run `python summarize_results.py` for a quick terminal summary.
+
+<!-- reviewed: 2026-04-03 -->
